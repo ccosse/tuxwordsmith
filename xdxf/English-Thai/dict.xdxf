@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xdxf lang_from="ENG" lang_to="THA" format="visual">
+<full_name>Basic Thai Language</full_name>
+<description>Copyright: Phuket Island Travel Advisors, Ltd; Version: 1.0</description>
+<ar><k>0</k>
+soon</ar>
+<ar><k>1</k>
+nueng</ar>
+<ar><k>1,000</k>
+neung-phan</ar>
+<ar><k>1,000,000</k>
+nueng-lan</ar>
+<ar><k>1,500,000</k>
+nueng-laan-ha-saen</ar>
+<ar><k>10</k>
+sib</ar>
+<ar><k>10,000</k>
+nueng-muen</ar>
+<ar><k>100</k>
+nueng-roy</ar>
+<ar><k>100,000</k>
+nueng-saen</ar>
+<ar><k>101</k>
+nueng-roi-nueng</ar>
+<ar><k>102</k>
+nueng-roi-sawng</ar>
+<ar><k>103</k>
+neung-roi-sarm</ar>
+<ar><k>104</k>
+neung-roi-si</ar>
+<ar><k>105</k>
+neung-roi-ha</ar>
+<ar><k>106</k>
+neung-roi-hok</ar>
+<ar><k>107</k>
+neung-roi-ched</ar>
+<ar><k>108</k>
+neung-roi-paed</ar>
+<ar><k>109</k>
+neung-roi-kow</ar>
+<ar><k>11</k>
+sib-ed</ar>
+<ar><k>110</k>
+roi-sib</ar>
+<ar><k>111</k>
+roi-sib-ed</ar>
+<ar><k>112</k>
+roi-sib-sawng</ar>
+<ar><k>113</k>
+roi-sib-sarm</ar>
+<ar><k>114</k>
+roi-sib-si</ar>
+<ar><k>115</k>
+roi-sib-ha</ar>
+<ar><k>116</k>
+roi-sib-hok</ar>
+<ar><k>117</k>
+roi-sib-ched</ar>
+<ar><k>118</k>
+roi-sib-paed</ar>
+<ar><k>119</k>
+roi-sib-kow</ar>
+<ar><k>12</k>
+sib-sawng</ar>
+<ar><k>120</k>
+roi-yi-sib</ar>
+<ar><k>13</k>
+sib-sarm</ar>
+<ar><k>130</k>
+roi-sarm-sib</ar>
+<ar><k>14</k>
+sib-si</ar>
+<ar><k>140</k>
+roi-si-sib</ar>
+<ar><k>15</k>
+sib-ha</ar>
+<ar><k>150</k>
+roi-ha-sib</ar>
+<ar><k>16</k>
+sib-hok</ar>
+<ar><k>17</k>
+sib-ched</ar>
+<ar><k>18</k>
+sib-paed</ar>
+<ar><k>19</k>
+sib-kow</ar>
+<ar><k>2</k>
+sawng</ar>
+<ar><k>20</k>
+yi-sib</ar>
+<ar><k>200</k>
+sawng-roi</ar>
+<ar><k>21</k>
+yi-sib-et</ar>
+<ar><k>22</k>
+yi-sib-sawng</ar>
+<ar><k>23</k>
+yi-sib-sarm</ar>
+<ar><k>24</k>
+yi-sib-si</ar>
+<ar><k>25</k>
+yi-sib-ha</ar>
+<ar><k>26</k>
+yi-sib-hok</ar>
+<ar><k>27</k>
+yi-sib-ched</ar>
+<ar><k>28</k>
+yi-sib-paed</ar>
+<ar><k>29</k>
+yi-sib-kow</ar>
+<ar><k>3</k>
+sarm</ar>
+<ar><k>30</k>
+sarm-sib</ar>
+<ar><k>300</k>
+sarm-roi</ar>
+<ar><k>31</k>
+sarm-sib-et</ar>
+<ar><k>32</k>
+sarm-sib-sawng</ar>
+<ar><k>33</k>
+sarm-sib-sarm</ar>
+<ar><k>34</k>
+sarm-sib-si</ar>
+<ar><k>35</k>
+sarm-sib-ha</ar>
+<ar><k>36</k>
+sarm-sib-hok</ar>
+<ar><k>37</k>
+sarm-sib-ched</ar>
+<ar><k>38</k>
+sarm-sib-paed</ar>
+<ar><k>39</k>
+sarm-sib-kow</ar>
+<ar><k>4</k>
+si</ar>
+<ar><k>40</k>
+si-sib</ar>
+<ar><k>400</k>
+si-roi</ar>
+<ar><k>41</k>
+si-sib-ed</ar>
+<ar><k>42</k>
+si-sib-sawng</ar>
+<ar><k>43</k>
+si-sib-sarm</ar>
+<ar><k>44</k>
+si-sib-si</ar>
+<ar><k>45</k>
+si-sib-ha</ar>
+<ar><k>5</k>
+ha</ar>
+<ar><k>5,000</k>
+ha-phan</ar>
+<ar><k>50</k>
+ha-sib</ar>
+<ar><k>500</k>
+ha-roi</ar>
+<ar><k>55</k>
+ha-sib-ha</ar>
+<ar><k>6</k>
+hok</ar>
+<ar><k>60</k>
+hok-sib</ar>
+<ar><k>65</k>
+hok-sib-ha</ar>
+<ar><k>7</k>
+ched</ar>
+<ar><k>70</k>
+ched-sib</ar>
+<ar><k>75</k>
+ched-sib-ha</ar>
+<ar><k>8</k>
+paed</ar>
+<ar><k>80</k>
+paed-sib</ar>
+<ar><k>9</k>
+kow</ar>
+<ar><k>90</k>
+kow-sib</ar>
+<ar><k>95</k>
+kow-sib-ha</ar>
+<ar><k>airplane</k>
+bin</ar>
+<ar><k>april</k>
+mesa-yon</ar>
+<ar><k>august</k>
+singa-khom</ar>
+<ar><k>auto</k>
+rot</ar>
+<ar><k>banana</k>
+kluai</ar>
+<ar><k>band aid</k>
+plaster</ar>
+<ar><k>bath</k>
+ab nam</ar>
+<ar><k>beautiful, very pretty</k>
+suai di</ar>
+<ar><k>blue</k>
+fa</ar>
+<ar><k>book</k>
+samut</ar>
+<ar><k>brush your teeth</k>
+pang fanh korn</ar>
+<ar><k>buy</k>
+sue</ar>
+<ar><k>camera</k>
+klong-thaai-roup</ar>
+<ar><k>can i borrow your pen?</k>
+phom khaw yuem pak-ka?</ar>
+<ar><k>can i get you a drink?</k>
+khun duem arai mai?</ar>
+<ar><k>can i help you ?</k>
+phom shuai arai dai-mai?</ar>
+<ar><k>can i smoke?</k>
+phom soup buri dai-mai?</ar>
+<ar><k>can i use your phone?</k>
+phom khaw shai thorasap dai-mai?</ar>
+<ar><k>can you come?</k>
+khun ma dai-mai?</ar>
+<ar><k>can you teach me thai?</k>
+sawn phom phoud thai dai-mai?</ar>
+<ar><k>cat</k>
+maeow</ar>
+<ar><k>close the door</k>
+bid patoo</ar>
+<ar><k>come here</k>
+ma thanng ni</ar>
+<ar><k>cup</k>
+giao nam (water cup)</ar>
+<ar><k>darling</k>
+thi-rak</ar>
+<ar><k>december</k>
+thanwakhom</ar>
+<ar><k>did you eat already</k>
+gin khao yaang?</ar>
+<ar><k>do you understand?</k>
+khow-chai mai</ar>
+<ar><k>dog</k>
+maw</ar>
+<ar><k>don't be late</k>
+ya sha nah</ar>
+<ar><k>don't forget</k>
+ya luem</ar>
+<ar><k>don't worry about it</k>
+mai pen rai</ar>
+<ar><k>door</k>
+patoo</ar>
+<ar><k>excuse me</k>
+khaw thode</ar>
+<ar><k>eye</k>
+tah</ar>
+<ar><k>fan</k>
+potlom</ar>
+<ar><k>faster</k>
+reow reow!</ar>
+<ar><k>february</k>
+kumpha-phan</ar>
+<ar><k>friday</k>
+wan souk</ar>
+<ar><k>go farther on</k>
+pai ik</ar>
+<ar><k>go left</k>
+liao saai</ar>
+<ar><k>go right</k>
+liao khwah</ar>
+<ar><k>go slow</k>
+pai cha cha</ar>
+<ar><k>go take a bath please</k>
+ab nam korn</ar>
+<ar><k>go! go away</k>
+pai!</ar>
+<ar><k>good bye</k>
+pai-khon</ar>
+<ar><k>green</k>
+khiao</ar>
+<ar><k>handsome, good looking</k>
+law maak</ar>
+<ar><k>happy new year!</k>
+sawadi pi mai!</ar>
+<ar><k>hello</k>
+sawadi</ar>
+<ar><k>help!</k>
+shuai-duai!</ar>
+<ar><k>hurt</k>
+cheb (ie. cheb tah)</ar>
+<ar><k>i don't speak thai</k>
+phom phoud thai mai-dai</ar>
+<ar><k>i don't understand</k>
+phom, mai khow-chai.</ar>
+<ar><k>i understand</k>
+phom, mai khow-chai mai.</ar>
+<ar><k>i want to get out (of tuk-tuk/taxi) here</k>
+phom long thi-ni</ar>
+<ar><k>i'm full</k>
+im laew</ar>
+<ar><k>island</k>
+koh (ie. koh phuket)</ar>
+<ar><k>it stopped raining</k>
+fonh yout laew</ar>
+<ar><k>it's raining</k>
+fonh-tok laew</ar>
+<ar><k>january</k>
+makara-khom</ar>
+<ar><k>july</k>
+karakada-khom</ar>
+<ar><k>june</k>
+mithuna-yon</ar>
+<ar><k>light</k>
+fie</ar>
+<ar><k>man</k>
+phu-shaai</ar>
+<ar><k>march</k>
+mesa-khom</ar>
+<ar><k>may</k>
+phrueapha-khom</ar>
+<ar><k>may i know your name?</k>
+phom khaw saap shue khun dai-mai?</ar>
+<ar><k>medicine</k>
+yaah</ar>
+<ar><k>monday</k>
+wan chand</ar>
+<ar><k>month</k>
+deuan</ar>
+<ar><k>mosquito</k>
+yung</ar>
+<ar><k>mother</k>
+mae</ar>
+<ar><k>no</k>
+mai</ar>
+<ar><k>no (negative reply, no, it is not.)</k>
+mai-shai</ar>
+<ar><k>nongmild goes to school already</k>
+nongmild pai rong-rian laew</ar>
+<ar><k>november</k>
+phruesachika-yon</ar>
+<ar><k>october</k>
+toula-khom</ar>
+<ar><k>one minute</k>
+nueng nathi</ar>
+<ar><k>one moment, one second</k>
+pep nueng</ar>
+<ar><k>orange</k>
+som</ar>
+<ar><k>pen</k>
+paakka</ar>
+<ar><k>pillow</k>
+monn</ar>
+<ar><k>pink</k>
+shampoo</ar>
+<ar><k>pocket</k>
+krapow</ar>
+<ar><k>red</k>
+deng</ar>
+<ar><k>rice</k>
+khao</ar>
+<ar><k>road</k>
+thanon</ar>
+<ar><k>saturday</k>
+wan sao</ar>
+<ar><k>school</k>
+rong-rian</ar>
+<ar><k>september</k>
+kanya-yon</ar>
+<ar><k>shirt</k>
+sueah</ar>
+<ar><k>shorts</k>
+tang gang</ar>
+<ar><k>silent, be quiet</k>
+ngiap</ar>
+<ar><k>sit</k>
+nang</ar>
+<ar><k>smell</k>
+dom</ar>
+<ar><k>speak slowly</k>
+phoud cha cha</ar>
+<ar><k>spoon</k>
+shonn</ar>
+<ar><k>star</k>
+duang</ar>
+<ar><k>stink</k>
+menh</ar>
+<ar><k>sunday</k>
+wan athit</ar>
+<ar><k>talk</k>
+phoud</ar>
+<ar><k>telephone</k>
+thorasab</ar>
+<ar><k>thank you</k>
+khob khun, khob chai</ar>
+<ar><k>that's all right</k>
+mai pen rai</ar>
+<ar><k>thunder</k>
+farong</ar>
+<ar><k>thursday</k>
+wan pharuehat</ar>
+<ar><k>today</k>
+wan-ni</ar>
+<ar><k>toilet</k>
+hong naam</ar>
+<ar><k>tomorrow</k>
+phroung-ni</ar>
+<ar><k>tooth</k>
+fanh</ar>
+<ar><k>true</k>
+ching</ar>
+<ar><k>tuesday</k>
+wan angkharn </ar>
+<ar><k>turn light off</k>
+bid fie korn</ar>
+<ar><k>turn light on</k>
+bird fie korn</ar>
+<ar><k>umbrella</k>
+rom</ar>
+<ar><k>understand</k>
+khow-chai</ar>
+<ar><k>very</k>
+maak</ar>
+<ar><k>very delicious</k>
+aroi maak!</ar>
+<ar><k>wake up!</k>
+louk! louk-khuen</ar>
+<ar><k>was it fun?</k>
+sanook-mai?</ar>
+<ar><k>wash</k>
+laang</ar>
+<ar><k>watch</k>
+nalika</ar>
+<ar><k>watch out! take care! look out!</k>
+rawang!</ar>
+<ar><k>water</k>
+narm</ar>
+<ar><k>wednesday</k>
+wan phud</ar>
+<ar><k>what time is it</k>
+ki-mong laew? </ar>
+<ar><k>what's that?</k>
+arai nah?</ar>
+<ar><k>what?</k>
+arai?</ar>
+<ar><k>when?</k>
+meuarai?</ar>
+<ar><k>where is the phone?</k>
+mi thorasab mai?</ar>
+<ar><k>where is the toilet?</k>
+hong naam you thi-nai?</ar>
+<ar><k>where is...</k>
+... you thi-nai?</ar>
+<ar><k>where?</k>
+thi-nai? </ar>
+<ar><k>white</k>
+khao</ar>
+<ar><k>who</k>
+khrai</ar>
+<ar><k>who told you so?</k>
+khrai bawk khun?</ar>
+<ar><k>who?</k>
+khrai?</ar>
+<ar><k>why?</k>
+tham-mai?</ar>
+<ar><k>wind</k>
+lom</ar>
+<ar><k>woman</k>
+phu-ying</ar>
+<ar><k>year</k>
+pi</ar>
+<ar><k>yellow</k>
+leuang</ar>
+<ar><k>yes</k>
+chai, khrup, khah, khrap-phom</ar>
+<ar><k>yes (affirmative reply. yes, it is.)</k>
+shai</ar>
+<ar><k>yes (female)</k>
+cha, khah</ar>
+<ar><k>yes (male)</k>
+cha, khrup</ar>
+<ar><k>yesterday</k>
+meua wan</ar>
+<ar><k>you are welcome</k>
+mai pen rai</ar>
+</xdxf>

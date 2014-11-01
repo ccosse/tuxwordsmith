@@ -1,0 +1,67 @@
+==========================================
+
+LANGUAGES INSTALLATION INSTRUCTIONS
+
+==========================================
+
+The various individual language[a]-language[b] dictionary resources have been put on SourceForge.
+The url is: http://sourceforge.net/project/showfiles.php?group_id=183670&package_id=273695&release_id=637678
+The best English dictionary to use is: Merriam-Webster-Collegiate
+To install them simply unzip and copy to the following appropriate directory:
+
+	Linux stand-alone: $HOME/TuxWordSmith/xdxf/
+	Linux installed: /var/games/TuxWordSmith/xdxf/
+	Windows: C:\Program Files\TuxWordSmith\TuxWordSmith\xdxf\
+
+
+
+==========================================
+
+APPLICATION INSTALLATION INSTRUCTIONS
+
+==========================================
+
+Linux:
+
+Dependencies:
+	Python, PyGame, SDL
+
+Optional:	
+	wxPython
+
+Local Installation:
+	unzip package to home directory
+	cd into home directory
+	run: "python ./tuxwordsmith"
+
+System-wide Installation:
+	chmod +x setup.py
+	./setup.py
+	/usr/local/bin/tuxwordsmith
+
+Uninstall:
+	chmod +x setup.py
+	./setup.py uninstall
+
+==========================================
+
+Mac, Windows:
+
+Note: 
+	Mac/Win users can just run from the 
+	local installation directory without
+	copying files to the python sitepkgs
+	directory.
+
+Dependencies:
+	Python, PyGame, SDL
+
+Optional:
+	wxPython
+
+Installation Procedure:
+	unzip the package
+	cd into package directory
+	python ./tuxwordsmith
+	
+==========================================

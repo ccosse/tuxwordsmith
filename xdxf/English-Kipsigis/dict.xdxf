@@ -1,0 +1,2261 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xdxf lang_from="ENG" lang_to="ENG" format="visual">
+<full_name>English-Kipsigis</full_name>
+<description>Copyright: http://www.freelang.net/dictionary/; Version: 1.0</description>
+<ar><k>A lot</k>
+Kot</ar>
+<ar><k>A story teller's opening word</k>
+Tangoch</ar>
+<ar><k>A thousand</k>
+Eliput</ar>
+<ar><k>Above ceiling</k>
+Tabot</ar>
+<ar><k>Absent</k>
+Momii</ar>
+<ar><k>Abuse; Curse</k>
+Chub</ar>
+<ar><k>Academicians</k>
+Kipsomaninik</ar>
+<ar><k>Acceptable</k>
+Chamda</ar>
+<ar><k>Accumulate</k>
+Bas</ar>
+<ar><k>Add</k>
+Tes</ar>
+<ar><k>Aeroplane</k>
+Ndegeit</ar>
+<ar><k>Afterwards</k>
+Koobata</ar>
+<ar><k>Age mate - men</k>
+Botum</ar>
+<ar><k>Age mate - women</k>
+Bamwai</ar>
+<ar><k>Age set</k>
+Ipinda</ar>
+<ar><k>Alcohol - spirits</k>
+Wirgit</ar>
+<ar><k>Alert</k>
+Chepchep</ar>
+<ar><k>All powerful</k>
+Kamuktaet</ar>
+<ar><k>Allow</k>
+Chamchin</ar>
+<ar><k>Also</k>
+Koraa, Agot</ar>
+<ar><k>Alter</k>
+Mabwai</ar>
+<ar><k>Ambush</k>
+Kobokyi</ar>
+<ar><k>Ancient sun god of Kipsigis</k>
+Asis</ar>
+<ar><k>Angel</k>
+Malaigayat</ar>
+<ar><k>Another</k>
+Ingo</ar>
+<ar><k>Another one</k>
+Age</ar>
+<ar><k>Ant</k>
+Pirechot</ar>
+<ar><k>Antelope</k>
+Cheptirgichet, Boinet</ar>
+<ar><k>Anus</k>
+Kwetiot</ar>
+<ar><k>Apologise</k>
+Nyoogat</ar>
+<ar><k>Archer's bag</k>
+Motiet</ar>
+<ar><k>Arm</k>
+Eut</ar>
+<ar><k>Army</k>
+Ami</ar>
+<ar><k>Arrow</k>
+Kipchabet</ar>
+<ar><k>As long as</k>
+Taakityo</ar>
+<ar><k>Ask</k>
+Teep</ar>
+<ar><k>At present</k>
+Inguni</ar>
+<ar><k>Athletics</k>
+Ngwaek</ar>
+<ar><k>Baby born; Velvet monkey</k>
+Chereret</ar>
+<ar><k>Bad</k>
+Ya</ar>
+<ar><k>Badness</k>
+Yaityet</ar>
+<ar><k>Bag</k>
+Mapuget</ar>
+<ar><k>Banishment</k>
+Woondo</ar>
+<ar><k>Bank</k>
+Bengi</ar>
+<ar><k>Barren woman</k>
+Sonet</ar>
+<ar><k>Basket</k>
+Kitonget</ar>
+<ar><k>Bastard</k>
+Araket</ar>
+<ar><k>Bath</k>
+Mwetkei</ar>
+<ar><k>Bathroom</k>
+Papit</ar>
+<ar><k>Be afraid</k>
+Iywei</ar>
+<ar><k>Be angry</k>
+Nerech</ar>
+<ar><k>Be cured; Be alive</k>
+Sob</ar>
+<ar><k>Be fortunate</k>
+Sere</ar>
+<ar><k>Be lonely</k>
+Sirir</ar>
+<ar><k>Be quiet</k>
+Sis</ar>
+<ar><k>Be shocked</k>
+Arogen</ar>
+<ar><k>Be sick</k>
+Mian</ar>
+<ar><k>Be well mannered</k>
+Tagur</ar>
+<ar><k>Beast; Emblem</k>
+Tiondo</ar>
+<ar><k>Beat; Ring</k>
+Bir</ar>
+<ar><k>Because; narrate</k>
+Amun</ar>
+<ar><k>Bed</k>
+Kitogut</ar>
+<ar><k>Bee</k>
+Segemiat</ar>
+<ar><k>Beer</k>
+Maiywek</ar>
+<ar><k>Bees</k>
+Segemik</ar>
+<ar><k>Beg</k>
+Som</ar>
+<ar><k>Begin</k>
+Taun</ar>
+<ar><k>Begining</k>
+Taunet</ar>
+<ar><k>Behaviour</k>
+Atepto</ar>
+<ar><k>Behind the house</k>
+Keter</ar>
+<ar><k>Behind; End</k>
+Let</ar>
+<ar><k>Being lost; Crooked</k>
+Petot</ar>
+<ar><k>Belittle</k>
+Wit</ar>
+<ar><k>Bell</k>
+Twalyot</ar>
+<ar><k>Belonging to</k>
+Ab</ar>
+<ar><k>Bend something</k>
+Wis</ar>
+<ar><k>Besides</k>
+Kotabala</ar>
+<ar><k>Bewitch</k>
+Pan</ar>
+<ar><k>Big</k>
+Woo</ar>
+<ar><k>Big rat</k>
+Kimenjerut</ar>
+<ar><k>Bird</k>
+Taritiet</ar>
+<ar><k>Birds</k>
+Taritik</ar>
+<ar><k>Bite</k>
+Sus</ar>
+<ar><k>Bite off</k>
+Ngeny</ar>
+<ar><k>Black</k>
+Tui</ar>
+<ar><k>Blanket</k>
+Branketit</ar>
+<ar><k>Blessed</k>
+Berurot</ar>
+<ar><k>Blind</k>
+Korat</ar>
+<ar><k>Blood</k>
+Korotik</ar>
+<ar><k>Blow</k>
+Kut</ar>
+<ar><k>Blunt knife</k>
+Sagetiet</ar>
+<ar><k>Boat</k>
+Melit</ar>
+<ar><k>Body</k>
+Porto</ar>
+<ar><k>Bone</k>
+Kawet</ar>
+<ar><k>Bones</k>
+Kawek</ar>
+<ar><k>Book</k>
+Bukuit</ar>
+<ar><k>Boom; Bench</k>
+Pomit</ar>
+<ar><k>Bound; Imprisoned</k>
+Ratat</ar>
+<ar><k>Boundary</k>
+Kiwotet</ar>
+<ar><k>Bow</k>
+Kuyanda</ar>
+<ar><k>Boy</k>
+Ngetet</ar>
+<ar><k>Brain; Computer processor</k>
+Kundit</ar>
+<ar><k>Branch</k>
+Temet</ar>
+<ar><k>Bread</k>
+Magatiat</ar>
+<ar><k>Break</k>
+Il</ar>
+<ar><k>Breath</k>
+Kapuset</ar>
+<ar><k>Bride</k>
+Mureret</ar>
+<ar><k>Bring along</k>
+Tiun</ar>
+<ar><k>Broom</k>
+Pirirwet</ar>
+<ar><k>Brother</k>
+Tupchet</ar>
+<ar><k>Brown</k>
+Murwon</ar>
+<ar><k>Brush</k>
+Siit, Purasit</ar>
+<ar><k>Bufallo; Heavens</k>
+Soet</ar>
+<ar><k>Build</k>
+Tech</ar>
+<ar><k>Bull</k>
+Kirgit</ar>
+<ar><k>Bullet</k>
+Risasiat</ar>
+<ar><k>Burn</k>
+Bel</ar>
+<ar><k>Burning</k>
+Lalei</ar>
+<ar><k>Bury</k>
+Tuup</ar>
+<ar><k>Bus</k>
+Basit</ar>
+<ar><k>Business</k>
+Mungaret</ar>
+<ar><k>Butterfly</k>
+Tapurpuriet</ar>
+<ar><k>Calamities</k>
+Nyasutik</ar>
+<ar><k>Calamity</k>
+Nyasutiet</ar>
+<ar><k>Calf</k>
+Moita</ar>
+<ar><k>Call</k>
+Kur</ar>
+<ar><k>Camera</k>
+Kamera</ar>
+<ar><k>Cane</k>
+Kirokto</ar>
+<ar><k>Cannot hear</k>
+Magase</ar>
+<ar><k>Cap wearer</k>
+kipkiroisi</ar>
+<ar><k>Capable</k>
+Much</ar>
+<ar><k>Car</k>
+Karit</ar>
+<ar><k>Care about</k>
+Magengii</ar>
+<ar><k>Carrot</k>
+Karat</ar>
+<ar><k>Cartilage</k>
+Melik</ar>
+<ar><k>Cat</k>
+Pakeet</ar>
+<ar><k>Catch</k>
+Tal</ar>
+<ar><k>Catch; Receive; Start</k>
+Nam</ar>
+<ar><k>Caterpillar</k>
+Cheputiet</ar>
+<ar><k>Center</k>
+Kwenet</ar>
+<ar><k>Centipede</k>
+Pusaiyet</ar>
+<ar><k>Ceremony</k>
+Tumdo</ar>
+<ar><k>Chain</k>
+Kipnyororit</ar>
+<ar><k>Chair</k>
+Ngecheret</ar>
+<ar><k>Change</k>
+Welel</ar>
+<ar><k>Chase</k>
+Woon</ar>
+<ar><k>Cheap; Easy</k>
+Roisi</ar>
+<ar><k>Cheat</k>
+Ngal</ar>
+<ar><k>Chest</k>
+Teget</ar>
+<ar><k>Chew</k>
+Nyei</ar>
+<ar><k>Chew curd</k>
+Tar boron</ar>
+<ar><k>Child</k>
+Lakwet</ar>
+<ar><k>Children</k>
+Look, Lagok</ar>
+<ar><k>Chimney</k>
+Kimonjok</ar>
+<ar><k>Chunks of meat</k>
+Panyek</ar>
+<ar><k>Circulate</k>
+Muut</ar>
+<ar><k>City</k>
+Nganaset</ar>
+<ar><k>Clansman</k>
+Maat</ar>
+<ar><k>Clap hands</k>
+Bir eut</ar>
+<ar><k>Clay</k>
+Ngenda</ar>
+<ar><k>Clean</k>
+Tilil</ar>
+<ar><k>Cleanse</k>
+Uun</ar>
+<ar><k>Clever</k>
+Ngom</ar>
+<ar><k>Climb down</k>
+Regun</ar>
+<ar><k>Climb up</k>
+Lany</ar>
+<ar><k>Close</k>
+Ker</ar>
+<ar><k>Close partially</k>
+Isyin</ar>
+<ar><k>Cloth</k>
+Ingoryet</ar>
+<ar><k>Cockrel</k>
+Kipsoiywet</ar>
+<ar><k>Coffin; Box</k>
+Sandukut</ar>
+<ar><k>Collapse</k>
+Rumogen</ar>
+<ar><k>Collect</k>
+Yum</ar>
+<ar><k>Columbus monkey</k>
+Tisyet</ar>
+<ar><k>Come</k>
+Nyon</ar>
+<ar><k>Come out</k>
+Mong</ar>
+<ar><k>Come to pass</k>
+Yayak</ar>
+<ar><k>Coming</k>
+Nyone</ar>
+<ar><k>Compete</k>
+Ipeliget</ar>
+<ar><k>Competition</k>
+Kapelisiet</ar>
+<ar><k>Computer</k>
+Kompyuta</ar>
+<ar><k>Computer Mouse</k>
+Maus</ar>
+<ar><k>Computer screen</k>
+Skrinit</ar>
+<ar><k>Conceive</k>
+Manach</ar>
+<ar><k>Concieve - animals</k>
+Ri</ar>
+<ar><k>Continue</k>
+Testai</ar>
+<ar><k>Cooker</k>
+Kukait</ar>
+<ar><k>Cooking stick</k>
+Muganget</ar>
+<ar><k>Cough</k>
+Lal</ar>
+<ar><k>Count</k>
+Iit, IIt</ar>
+<ar><k>Court</k>
+Kapkirwok</ar>
+<ar><k>Cow</k>
+Teta</ar>
+<ar><k>Cow shed</k>
+Kaptich</ar>
+<ar><k>Crawling</k>
+Guiguiyen</ar>
+<ar><k>Create</k>
+Chob</ar>
+<ar><k>Cricket</k>
+Kipsiririt</ar>
+<ar><k>Cries</k>
+Rirek</ar>
+<ar><k>Cripple</k>
+Solomwet</ar>
+<ar><k>Crocodile</k>
+Mambet</ar>
+<ar><k>Crow</k>
+Chepkungurwet</ar>
+<ar><k>Cry</k>
+Rir</ar>
+<ar><k>Cry of call</k>
+Kurset</ar>
+<ar><k>Cup</k>
+Kigombet</ar>
+<ar><k>Cure</k>
+Isoob</ar>
+<ar><k>Cursed</k>
+Chubot</ar>
+<ar><k>Curtain</k>
+Katain</ar>
+<ar><k>Cut</k>
+Til</ar>
+<ar><k>Dance</k>
+Teran</ar>
+<ar><k>Darkness</k>
+Uritiet</ar>
+<ar><k>Daughter</k>
+Chepto</ar>
+<ar><k>Dawn</k>
+Kochor</ar>
+<ar><k>Day</k>
+Petut</ar>
+<ar><k>Daylight</k>
+Beet</ar>
+<ar><k>Dead human bodies</k>
+Muswek</ar>
+<ar><k>Dead human body</k>
+Musto</ar>
+<ar><k>Deaf</k>
+Kimakasta, Kimagasta</ar>
+<ar><k>Death</k>
+Meet</ar>
+<ar><k>Deceive</k>
+Ken</ar>
+<ar><k>Deep river</k>
+Riret</ar>
+<ar><k>Deliberately</k>
+Kwetin</ar>
+<ar><k>Demons</k>
+Oiik</ar>
+<ar><k>Destroy</k>
+Put</ar>
+<ar><k>Devil</k>
+Chesawiliet</ar>
+<ar><k>Die</k>
+Mee</ar>
+<ar><k>Different</k>
+Ter</ar>
+<ar><k>Dirty</k>
+Mur</ar>
+<ar><k>Disagreement</k>
+Tiiyet</ar>
+<ar><k>Diseases</k>
+Mianuogik</ar>
+<ar><k>Divide</k>
+Pchei, Pchechin</ar>
+<ar><k>Divination</k>
+Bir tartet</ar>
+<ar><k>Do</k>
+Yai</ar>
+<ar><k>Do not hold tightly</k>
+Matigiich</ar>
+<ar><k>Does not matter</k>
+Matilugii, Magii</ar>
+<ar><k>Dog</k>
+Kiptawirit, Ngogto, Ngokto</ar>
+<ar><k>Donkey</k>
+Sigiriet</ar>
+<ar><k>Door</k>
+Kurget</ar>
+<ar><k>Doors</k>
+Kurgotik</ar>
+<ar><k>Dove</k>
+Sororiet</ar>
+<ar><k>Draw</k>
+Choran</ar>
+<ar><k>Draw e.g. draw water</k>
+Sil</ar>
+<ar><k>Dread</k>
+Ywei</ar>
+<ar><k>Drink</k>
+Yee</ar>
+<ar><k>Drought</k>
+Kemeut</ar>
+<ar><k>Drum</k>
+Sukutit</ar>
+<ar><k>Drunk</k>
+Pogiti</ar>
+<ar><k>Dry</k>
+Saiyat</ar>
+<ar><k>Dung</k>
+Tatik</ar>
+<ar><k>During</k>
+En</ar>
+<ar><k>Dusk</k>
+Kocharta</ar>
+<ar><k>Eagle</k>
+Chepkokochet</ar>
+<ar><k>Ear</k>
+Iitit</ar>
+<ar><k>Earth</k>
+Nwony</ar>
+<ar><k>Earthenware container</k>
+Teret</ar>
+<ar><k>Easily comes off</k>
+Churuti</ar>
+<ar><k>East</k>
+Kongasis</ar>
+<ar><k>Easy</k>
+Nyumyum</ar>
+<ar><k>Eat</k>
+Aamisien</ar>
+<ar><k>Eat into</k>
+Ngem</ar>
+<ar><k>Eat; To pain</k>
+Aam</ar>
+<ar><k>Eating</k>
+Aamisiet</ar>
+<ar><k>Edge</k>
+Taban</ar>
+<ar><k>Egg</k>
+Maayat</ar>
+<ar><k>Eight</k>
+Sisit</ar>
+<ar><k>Electricity</k>
+Sitimet</ar>
+<ar><k>Elephant</k>
+Belyot</ar>
+<ar><k>Embrace</k>
+Itoroch</ar>
+<ar><k>Endurance</k>
+Muitaet</ar>
+<ar><k>Endure</k>
+Muita</ar>
+<ar><k>Enemies</k>
+Punik</ar>
+<ar><k>Enemy</k>
+Punyot</ar>
+<ar><k>English</k>
+Kingeresa</ar>
+<ar><k>Enough</k>
+Yamaat</ar>
+<ar><k>Enslave; Short for ceremony</k>
+Tum</ar>
+<ar><k>Enter</k>
+Chut</ar>
+<ar><k>Enters</k>
+Chute</ar>
+<ar><k>Enumaration; Mathematics</k>
+Kaisiet</ar>
+<ar><k>Enumeration</k>
+Koitet</ar>
+<ar><k>Escape</k>
+Chilil</ar>
+<ar><k>Evening</k>
+Langat</ar>
+<ar><k>Every</k>
+Tugul</ar>
+<ar><k>Exceed</k>
+Chumda, Wakta</ar>
+<ar><k>Exert oneself</k>
+Kiil</ar>
+<ar><k>Eye</k>
+Konda</ar>
+<ar><k>Eyes</k>
+Konyek</ar>
+<ar><k>Face</k>
+Togoch</ar>
+<ar><k>Facial</k>
+Toget</ar>
+<ar><k>Faint</k>
+Tonui</ar>
+<ar><k>Fair looking</k>
+Tilyal</ar>
+<ar><k>Fall</k>
+Put</ar>
+<ar><k>Family</k>
+Kapchii</ar>
+<ar><k>Far</k>
+Loo</ar>
+<ar><k>Farmer</k>
+Temindet</ar>
+<ar><k>Farmers</k>
+Temik</ar>
+<ar><k>Fast runner</k>
+Ngweng</ar>
+<ar><k>Fat</k>
+Nerat</ar>
+<ar><k>Father</k>
+Pamon'go</ar>
+<ar><k>Fatty</k>
+Akwai</ar>
+<ar><k>Fatty meat</k>
+Sundet</ar>
+<ar><k>Fear</k>
+Arogenet</ar>
+<ar><k>Feases</k>
+Sigek, Mbaek</ar>
+<ar><k>Fertile</k>
+Toldol</ar>
+<ar><k>Few</k>
+Tuten</ar>
+<ar><k>Fiancee</k>
+Osotiot</ar>
+<ar><k>Fierce bull</k>
+Kirgit Kimararen</ar>
+<ar><k>Find</k>
+Cheng</ar>
+<ar><k>Fine</k>
+Mising</ar>
+<ar><k>Finger</k>
+Siiyet</ar>
+<ar><k>Fire</k>
+Mat</ar>
+<ar><k>Fire place</k>
+Koitama</ar>
+<ar><k>Firstly</k>
+Korok</ar>
+<ar><k>Fish</k>
+Injiriot</ar>
+<ar><k>Fishing hook</k>
+Ndowanit</ar>
+<ar><k>Five; Escort</k>
+Mut</ar>
+<ar><k>Flog</k>
+Kipchoritit</ar>
+<ar><k>Flour</k>
+Busiek</ar>
+<ar><k>Flower; Beautiful woman</k>
+Taptet</ar>
+<ar><k>Fly</k>
+Tiriren</ar>
+<ar><k>Follow</k>
+Sip</ar>
+<ar><k>Food</k>
+Amitwogik</ar>
+<ar><k>Foolishness</k>
+Perpernatet</ar>
+<ar><k>Forcefully scratch</k>
+Baach</ar>
+<ar><k>Forefathers</k>
+Boisiekab Keny</ar>
+<ar><k>Forever</k>
+Koigeny</ar>
+<ar><k>Forewarn; Groan</k>
+Tei</ar>
+<ar><k>Forget</k>
+Utien</ar>
+<ar><k>Fortune</k>
+Kelunet</ar>
+<ar><k>Foul the air</k>
+Kwat</ar>
+<ar><k>Four</k>
+Angwan</ar>
+<ar><k>Free</k>
+Buch, Ityagat</ar>
+<ar><k>Friday</k>
+Kasitab Mut</ar>
+<ar><k>Friend</k>
+Chorwet</ar>
+<ar><k>Frog</k>
+Mororochet</ar>
+<ar><k>Frogs</k>
+Mororochik</ar>
+<ar><k>Frustrate</k>
+Us</ar>
+<ar><k>Fry</k>
+Kel</ar>
+<ar><k>Fund raising; Big container</k>
+Kipagenge</ar>
+<ar><k>Fur</k>
+Butek</ar>
+<ar><k>Games</k>
+Ureryet</ar>
+<ar><k>Get</k>
+Sich</ar>
+<ar><k>Giraffe</k>
+Twigait</ar>
+<ar><k>Give</k>
+Konu</ar>
+<ar><k>Give birth - animals</k>
+Ii</ar>
+<ar><k>Go</k>
+Wui</ar>
+<ar><k>Go through</k>
+Pun</ar>
+<ar><k>Go with vigour</k>
+Monori</ar>
+<ar><k>Goat</k>
+Artet</ar>
+<ar><k>Going</k>
+Wendi</ar>
+<ar><k>Good</k>
+Mien, Mie</ar>
+<ar><k>Good bye</k>
+Saisere</ar>
+<ar><k>Good manners</k>
+Tagurnatet</ar>
+<ar><k>Good news</k>
+Logoiwek Chemiach</ar>
+<ar><k>Good; Good looking</k>
+Kararan</ar>
+<ar><k>Goodness</k>
+Miendo</ar>
+<ar><k>Gore; fight with fist</k>
+Luch</ar>
+<ar><k>Gorilla</k>
+Moset</ar>
+<ar><k>Gossip</k>
+Chamset</ar>
+<ar><k>Gourd</k>
+Sotet</ar>
+<ar><k>Granary</k>
+Choget</ar>
+<ar><k>Grandfather</k>
+Pomori</ar>
+<ar><k>Grandmother</k>
+Patiem</ar>
+<ar><k>Grass</k>
+Suswek</ar>
+<ar><k>Grasshopper</k>
+Talamwet</ar>
+<ar><k>Grassy and dewy</k>
+Seretiot</ar>
+<ar><k>Grave</k>
+Kererit</ar>
+<ar><k>Greediness</k>
+Megeinatet</ar>
+<ar><k>Green vegetables</k>
+Ingwek</ar>
+<ar><k>Green; Oppress</k>
+Nyalil</ar>
+<ar><k>Greet</k>
+Ikat</ar>
+<ar><k>Grind</k>
+Ngaa</ar>
+<ar><k>Gun</k>
+Pundugit</ar>
+<ar><k>Hair</k>
+Sumek</ar>
+<ar><k>Hang</k>
+Rorogen</ar>
+<ar><k>Happy</k>
+Baibai</ar>
+<ar><k>Hard</k>
+Uui</ar>
+<ar><k>Harddisk</k>
+Hadisk</ar>
+<ar><k>Hardware</k>
+Hadweya</ar>
+<ar><k>Hare</k>
+Kiplekwet</ar>
+<ar><k>Harvest</k>
+Ges, Kes, Puut</ar>
+<ar><k>Harvested field</k>
+Roret</ar>
+<ar><k>Has</k>
+Kaa go</ar>
+<ar><k>Hate</k>
+Sas</ar>
+<ar><k>Hatred</k>
+Sasisyet</ar>
+<ar><k>Have sex with</k>
+Kum</ar>
+<ar><k>He-goat</k>
+Kwesta</ar>
+<ar><k>Head</k>
+Metit</ar>
+<ar><k>Head teacher</k>
+Konetindet ne oo</ar>
+<ar><k>Heads</k>
+Metoek</ar>
+<ar><k>Hear</k>
+Kas</ar>
+<ar><k>Heart</k>
+Muguleldo</ar>
+<ar><k>Heaven</k>
+Kipsengwet</ar>
+<ar><k>Heavy</k>
+Nyigis</ar>
+<ar><k>Heifer</k>
+Roriat</ar>
+<ar><k>Hello</k>
+Chamge</ar>
+<ar><k>Help</k>
+Taretet</ar>
+<ar><k>Hen</k>
+Ingokyet</ar>
+<ar><k>Here; Warm oneself</k>
+Yu</ar>
+<ar><k>Hide</k>
+Muito</ar>
+<ar><k>High</k>
+Toror</ar>
+<ar><k>High; Long</k>
+Koi</ar>
+<ar><k>Highness</k>
+Torornatet</ar>
+<ar><k>Hill</k>
+Tulwet</ar>
+<ar><k>Hills</k>
+Tulonok</ar>
+<ar><k>Hit</k>
+Kwer</ar>
+<ar><k>Hoe</k>
+Mogombet</ar>
+<ar><k>Hold tightly</k>
+Giich</ar>
+<ar><k>Hole</k>
+Keringet</ar>
+<ar><k>Home</k>
+Gaa</ar>
+<ar><k>Honey</k>
+Kumiat</ar>
+<ar><k>Honour</k>
+Konyit</ar>
+<ar><k>Honourable</k>
+Nekonyitot</ar>
+<ar><k>Horse</k>
+Paraisit</ar>
+<ar><k>House</k>
+Koot</ar>
+<ar><k>Housefly</k>
+Kalyangat</ar>
+<ar><k>Housetop</k>
+Kimonjogut</ar>
+<ar><k>How many?</k>
+Ata</ar>
+<ar><k>Hug</k>
+Toroch</ar>
+<ar><k>Human being</k>
+Chito</ar>
+<ar><k>Hunter</k>
+Kiplogotiot</ar>
+<ar><k>Hyena</k>
+Kimagetiet</ar>
+<ar><k>Hyena - short for</k>
+Kimaget</ar>
+<ar><k>I -as in me</k>
+a</ar>
+<ar><k>I am fine</k>
+Achamege</ar>
+<ar><k>I don't know</k>
+Mongen</ar>
+<ar><k>Idiot</k>
+Labaat</ar>
+<ar><k>In future</k>
+Tuun</ar>
+<ar><k>Inflamed</k>
+Ipwanat</ar>
+<ar><k>Initiates</k>
+Tarusiek</ar>
+<ar><k>Initiates neck ring</k>
+Merenget</ar>
+<ar><k>Inlaw</k>
+Poger</ar>
+<ar><k>Inquiry</k>
+Tepseet</ar>
+<ar><k>Inside</k>
+Orit</ar>
+<ar><k>Instead</k>
+Nikoto</ar>
+<ar><k>Intercourse</k>
+Kumisyet</ar>
+<ar><k>Internet</k>
+Intanet</ar>
+<ar><k>Investigate; Examine</k>
+Chigil</ar>
+<ar><k>Investigator</k>
+Kinindet</ar>
+<ar><k>Invisible</k>
+Motogu</ar>
+<ar><k>Ironbox</k>
+Pasit</ar>
+<ar><k>Is</k>
+Si</ar>
+<ar><k>It's up to you</k>
+Iyooo</ar>
+<ar><k>Jehovah</k>
+Jehova</ar>
+<ar><k>Jesus</k>
+Jesu</ar>
+<ar><k>Jigger; Virus</k>
+Kutiet</ar>
+<ar><k>Jiggers; Viruses</k>
+Kutik</ar>
+<ar><k>Journey</k>
+Ruitoito</ar>
+<ar><k>Judge</k>
+Ruwokiin</ar>
+<ar><k>Judge; Chief</k>
+Kirwogindet</ar>
+<ar><k>Jump</k>
+Twal</ar>
+<ar><k>Jump over</k>
+Siir</ar>
+<ar><k>Keep; Bury</k>
+Konor</ar>
+<ar><k>Kenya</k>
+Kalenjin</ar>
+<ar><k>Key</k>
+Kipunguet</ar>
+<ar><k>Key; Button</k>
+Kibunguwet</ar>
+<ar><k>Keyboard</k>
+Kibod</ar>
+<ar><k>Kick</k>
+Tiar</ar>
+<ar><k>Kill</k>
+Bar</ar>
+<ar><k>King</k>
+Laitoryat</ar>
+<ar><k>Kingdom</k>
+Pororyet</ar>
+<ar><k>Kings</k>
+Laitorinik</ar>
+<ar><k>Kite</k>
+Chesireret</ar>
+<ar><k>Knife</k>
+Rotwet</ar>
+<ar><k>Know</k>
+Nai</ar>
+<ar><k>Knowledge</k>
+Naet</ar>
+<ar><k>Laggage</k>
+Kurbet</ar>
+<ar><k>Lake</k>
+Araraita</ar>
+<ar><k>Lamb</k>
+Arewetab Kechiryet</ar>
+<ar><k>Lamp</k>
+Tait</ar>
+<ar><k>Land</k>
+Ibaret</ar>
+<ar><k>Last</k>
+Letiin</ar>
+<ar><k>Laugh</k>
+Rorii</ar>
+<ar><k>Laughter</k>
+Roriet</ar>
+<ar><k>Lawyer</k>
+Ogilyot</ar>
+<ar><k>Leaf</k>
+Sokiot</ar>
+<ar><k>Left</k>
+Katam</ar>
+<ar><k>Leg</k>
+Keldo</ar>
+<ar><k>Legion; war</k>
+Luget</ar>
+<ar><k>Lice</k>
+Isirek</ar>
+<ar><k>Lick</k>
+Mel</ar>
+<ar><k>Lie flat</k>
+Swerten</ar>
+<ar><k>Life</k>
+Sobondo</ar>
+<ar><k>Light</k>
+Laboiyet</ar>
+<ar><k>Lightning</k>
+Ilet</ar>
+<ar><k>Lightning flash; To pass on</k>
+Kolilet</ar>
+<ar><k>Like</k>
+Uu</ar>
+<ar><k>Limp</k>
+Ngwal</ar>
+<ar><k>Lion</k>
+Ngetundo</ar>
+<ar><k>Live</k>
+Meny</ar>
+<ar><k>Livelihood</k>
+Melekto</ar>
+<ar><k>Loan</k>
+Lon</ar>
+<ar><k>Lock with padlock</k>
+Susyin</ar>
+<ar><k>Long time ago</k>
+Keny</ar>
+<ar><k>Look after</k>
+Riip</ar>
+<ar><k>Lord; Headman</k>
+Kiptaiyat</ar>
+<ar><k>Lorry</k>
+Lorit</ar>
+<ar><k>Lost</k>
+Pet</ar>
+<ar><k>Louse</k>
+Isiryat</ar>
+<ar><k>Love</k>
+Cham</ar>
+<ar><k>Lukewarm</k>
+Lolong</ar>
+<ar><k>Madman</k>
+Kipiywet</ar>
+<ar><k>Madness</k>
+Iywek</ar>
+<ar><k>Maize</k>
+Pandek, Kimyet</ar>
+<ar><k>Man</k>
+Muren</ar>
+<ar><k>Man with sexual prowess</k>
+Kumin</ar>
+<ar><k>Many</k>
+Chang</ar>
+<ar><k>Market</k>
+Ndonyo</ar>
+<ar><k>Marry</k>
+Tun</ar>
+<ar><k>Match box</k>
+Kibiritit</ar>
+<ar><k>Matress</k>
+Matiresit</ar>
+<ar><k>May I get in</k>
+Iiyo</ar>
+<ar><k>Me</k>
+Ane</ar>
+<ar><k>Measure;</k>
+Kwa</ar>
+<ar><k>Meat</k>
+Pendo</ar>
+<ar><k>Medicine</k>
+Kerichek</ar>
+<ar><k>Meet</k>
+Tuiyen</ar>
+<ar><k>Meet; Achieve; Reach</k>
+Yor</ar>
+<ar><k>Meet; Attain</k>
+Nyor</ar>
+<ar><k>Meeting</k>
+Tuiyet</ar>
+<ar><k>Melt</k>
+Chot</ar>
+<ar><k>Men; Manly</k>
+Murenik</ar>
+<ar><k>Mercy</k>
+Rirge</ar>
+<ar><k>Metal</k>
+Karnet</ar>
+<ar><k>Milk</k>
+Chego</ar>
+<ar><k>Milking</k>
+Kei</ar>
+<ar><k>Milking shed</k>
+Munandet</ar>
+<ar><k>Millet</k>
+Peek</ar>
+<ar><k>Mine</k>
+Nenyun</ar>
+<ar><k>Misplace</k>
+Meten</ar>
+<ar><k>Mobile phone</k>
+Simet</ar>
+<ar><k>Modem</k>
+Modemit</ar>
+<ar><k>Mole</k>
+Pungugwet</ar>
+<ar><k>Monday</k>
+Chumatatu</ar>
+<ar><k>Money</k>
+Rapinik</ar>
+<ar><k>Moon; Month</k>
+Arawet</ar>
+<ar><k>Moran</k>
+Muren</ar>
+<ar><k>Morning</k>
+Eech</ar>
+<ar><k>Mother</k>
+Karuchun, Iyoo</ar>
+<ar><k>Motocycle</k>
+Pigipigi</ar>
+<ar><k>Mouth; Language</k>
+Kutit</ar>
+<ar><k>Mouths; Tribes</k>
+Kutuswek</ar>
+<ar><k>Mud</k>
+Ngatatek</ar>
+<ar><k>Multiply</k>
+Nyil</ar>
+<ar><k>Nail</k>
+Kipchumariat</ar>
+<ar><k>Name</k>
+Kainet</ar>
+<ar><k>Name after</k>
+Kurenet</ar>
+<ar><k>Name something or somebody</k>
+Kuren</ar>
+<ar><k>Napkin</k>
+Munyeret</ar>
+<ar><k>Narrate</k>
+Mwaun</ar>
+<ar><k>Narrow</k>
+Tenden</ar>
+<ar><k>Neddle</k>
+Katet</ar>
+<ar><k>Nest</k>
+Kesit</ar>
+<ar><k>Net</k>
+Netit</ar>
+<ar><k>Nettle</k>
+Kimelet</ar>
+<ar><k>News</k>
+Logoiwek</ar>
+<ar><k>Night</k>
+Kemoi</ar>
+<ar><k>Nine</k>
+Sogol</ar>
+<ar><k>North</k>
+Murottai</ar>
+<ar><k>Nose</k>
+Serut</ar>
+<ar><k>Not fertile</k>
+Ngemgem</ar>
+<ar><k>Not much</k>
+Ngering</ar>
+<ar><k>Nursery</k>
+Nasari</ar>
+<ar><k>Of hair - untidy</k>
+Marak</ar>
+<ar><k>Of waist - slender</k>
+Ngingin</ar>
+<ar><k>Oil; Fat</k>
+Mwaita</ar>
+<ar><k>Old man</k>
+Boiyot</ar>
+<ar><k>Old men</k>
+Boisiek</ar>
+<ar><k>Old woman</k>
+Chepyoset</ar>
+<ar><k>Old women</k>
+Chepyosok</ar>
+<ar><k>On the dot</k>
+Chok</ar>
+<ar><k>One</k>
+Agenge</ar>
+<ar><k>Onion</k>
+Kitunguiyot</ar>
+<ar><k>Onions</k>
+Kitunguuk</ar>
+<ar><k>Open</k>
+Yat</ar>
+<ar><k>Opportune time</k>
+Kasarta</ar>
+<ar><k>Or</k>
+Ana</ar>
+<ar><k>Orange</k>
+Logoiyat</ar>
+<ar><k>Organise</k>
+Pangan</ar>
+<ar><k>Other side of valley; Abroad</k>
+Pitanin</ar>
+<ar><k>Others</k>
+Alak</ar>
+<ar><k>Oust</k>
+Kirinda</ar>
+<ar><k>Outside</k>
+Sang, Bii</ar>
+<ar><k>Overcook food</k>
+Loch</ar>
+<ar><k>Overcooked</k>
+Lochot</ar>
+<ar><k>Overflow</k>
+Guut, Nyi</ar>
+<ar><k>Overpower</k>
+Nenet</ar>
+<ar><k>Owl</k>
+Sugurut</ar>
+<ar><k>Pace up; Measure</k>
+Kwa</ar>
+<ar><k>Pain</k>
+Ngwonindo</ar>
+<ar><k>Painful</k>
+Ngwan</ar>
+<ar><k>Painted; Highly praised</k>
+Salat</ar>
+<ar><k>Panga</k>
+Panget</ar>
+<ar><k>Paper</k>
+Karatasit</ar>
+<ar><k>Parable</k>
+Karagutiet</ar>
+<ar><k>Parent</k>
+Sigindet</ar>
+<ar><k>Parents</k>
+Siigik, Sigik</ar>
+<ar><k>Pass away</k>
+Sirtoo</ar>
+<ar><k>Pass through</k>
+Sirten</ar>
+<ar><k>Path</k>
+Chepkilet</ar>
+<ar><k>Pay dowry</k>
+Kanda</ar>
+<ar><k>Peace</k>
+Kalyet</ar>
+<ar><k>Peaceable</k>
+Chamiet</ar>
+<ar><k>Pen</k>
+Kalamit</ar>
+<ar><k>Penis</k>
+Indirit</ar>
+<ar><k>People</k>
+Piik</ar>
+<ar><k>Person who is alone</k>
+Inegen</ar>
+<ar><k>Person with skin rushes</k>
+Kipsimbir</ar>
+<ar><k>Photograph</k>
+Pichait</ar>
+<ar><k>Pick</k>
+Kwai</ar>
+<ar><k>Pierce</k>
+Rut</ar>
+<ar><k>Pig</k>
+Nguruet</ar>
+<ar><k>Pill</k>
+Chur</ar>
+<ar><k>Pinch</k>
+Komot</ar>
+<ar><k>Pisyin</k>
+Splash</ar>
+<ar><k>Place</k>
+Emet</ar>
+<ar><k>Planet Mars</k>
+Machilchil</ar>
+<ar><k>Planet Venus</k>
+Tabaita</ar>
+<ar><k>Plant</k>
+Miin</ar>
+<ar><k>Plate</k>
+Sanit</ar>
+<ar><k>Plead</k>
+Saach</ar>
+<ar><k>Plough</k>
+Tem</ar>
+<ar><k>Poisoned arrow</k>
+Ngwonet</ar>
+<ar><k>Police</k>
+Polisiot</ar>
+<ar><k>Politics</k>
+Polatet</ar>
+<ar><k>Polythene</k>
+Selele</ar>
+<ar><k>Poor</k>
+Kipananyat</ar>
+<ar><k>Porridge</k>
+Rongorik</ar>
+<ar><k>Posho mill</k>
+Regorego, Regereget</ar>
+<ar><k>Pour</k>
+Ser, Seer</ar>
+<ar><k>Pour into; Slap forcefully</k>
+Ramchin</ar>
+<ar><k>Poverty; problems</k>
+Nyalilda</ar>
+<ar><k>Power</k>
+Kimnatet</ar>
+<ar><k>Powerful</k>
+Kim</ar>
+<ar><k>Praise</k>
+Ilosun</ar>
+<ar><k>Pray</k>
+Saa</ar>
+<ar><k>Prayer; Appeal</k>
+Saet</ar>
+<ar><k>Preach; Eat with</k>
+Amden</ar>
+<ar><k>Pregnant woman</k>
+Tamonet</ar>
+<ar><k>Pregnant women</k>
+Tamonosiek</ar>
+<ar><k>Prepare corn meal</k>
+Kwany</ar>
+<ar><k>Prepare gourd for milk</k>
+Sut</ar>
+<ar><k>Present</k>
+Miten, Mi</ar>
+<ar><k>Press</k>
+Chil</ar>
+<ar><k>Priest</k>
+Motiryot</ar>
+<ar><k>Produce a loud bang</k>
+Chei</ar>
+<ar><k>Professor</k>
+Profesa</ar>
+<ar><k>Programming</k>
+Programing</ar>
+<ar><k>Prophesy</k>
+Maonatet</ar>
+<ar><k>Prophet</k>
+Maotyot</ar>
+<ar><k>Prophets</k>
+Maotik</ar>
+<ar><k>Prostrate</k>
+Kutuny</ar>
+<ar><k>Pull</k>
+Ichut, Inin</ar>
+<ar><k>Pull; Inhale</k>
+Chuut</ar>
+<ar><k>Pump</k>
+Sur</ar>
+<ar><k>Pus</k>
+Pururutek</ar>
+<ar><k>Push</k>
+Torten</ar>
+<ar><k>Put in disarray; re-plough</k>
+Purpuren</ar>
+<ar><k>Put together something</k>
+Wasun</ar>
+<ar><k>Python</k>
+Erenet</ar>
+<ar><k>Quarrel</k>
+Pol</ar>
+<ar><k>Question</k>
+Teebutiet</ar>
+<ar><k>Radio</k>
+Ratio</ar>
+<ar><k>Railway truck</k>
+Karitab maat</ar>
+<ar><k>Rain</k>
+Ropta</ar>
+<ar><k>Ram</k>
+Mengit</ar>
+<ar><k>Ran</k>
+Lapat</ar>
+<ar><k>Rape</k>
+Boryen</ar>
+<ar><k>Rat</k>
+Muryat</ar>
+<ar><k>Read</k>
+Soman</ar>
+<ar><k>Receive</k>
+Tach</ar>
+<ar><k>Red</k>
+Pirir</ar>
+<ar><k>Refuse</k>
+Yeet</ar>
+<ar><k>Relax</k>
+Tas</ar>
+<ar><k>Remember</k>
+Ibwat, Bwat</ar>
+<ar><k>Repay</k>
+Yakten</ar>
+<ar><k>Repeat</k>
+Ketyin</ar>
+<ar><k>Replant</k>
+Ror</ar>
+<ar><k>Report</k>
+Mwaiten</ar>
+<ar><k>Respect</k>
+Tegis</ar>
+<ar><k>Respect for</k>
+Tegisto</ar>
+<ar><k>Return</k>
+Wegun</ar>
+<ar><k>Return; Overturn</k>
+Weech</ar>
+<ar><k>Rhino</k>
+Kipsirichet</ar>
+<ar><k>Ribs</k>
+Karasta</ar>
+<ar><k>Rich</k>
+Mogoryot</ar>
+<ar><k>Right hand; In front</k>
+Tai</ar>
+<ar><k>Ripe</k>
+Rurot, Rur</ar>
+<ar><k>Ripen</k>
+Rursi</ar>
+<ar><k>River</k>
+Ainet</ar>
+<ar><k>Road; Clan</k>
+Oret</ar>
+<ar><k>Rope</k>
+Rogoet</ar>
+<ar><k>Round</k>
+Mugul</ar>
+<ar><k>Rugged feet</k>
+Singirtenik</ar>
+<ar><k>Ruin</k>
+Wech</ar>
+<ar><k>Ruler</k>
+Kandoindet</ar>
+<ar><k>Rulership</k>
+Paunatet</ar>
+<ar><k>Rumble</k>
+Tul</ar>
+<ar><k>Runner</k>
+Lapatindet</ar>
+<ar><k>Sacred animal</k>
+Cherumbenian</ar>
+<ar><k>Saliva</k>
+Ngulek</ar>
+<ar><k>Salt</k>
+Munyek</ar>
+<ar><k>Same</k>
+Kergei</ar>
+<ar><k>Sand</k>
+Menet</ar>
+<ar><k>Sap</k>
+Manget</ar>
+<ar><k>Satan</k>
+Aiindet</ar>
+<ar><k>Satelite</k>
+Setlait</ar>
+<ar><k>Saturday</k>
+Chumamos</ar>
+<ar><k>Save</k>
+Sarun</ar>
+<ar><k>Saviour</k>
+Sarunindet</ar>
+<ar><k>Say</k>
+Mwa</ar>
+<ar><k>School</k>
+Sugul</ar>
+<ar><k>School parade</k>
+Polen</ar>
+<ar><k>Schools</k>
+Sugulisiek</ar>
+<ar><k>Scoop</k>
+Ram</ar>
+<ar><k>Scoop out something e.g. soil</k>
+Was</ar>
+<ar><k>Scrap</k>
+Siit</ar>
+<ar><k>Scratch</k>
+Ngwar</ar>
+<ar><k>Scream</k>
+Wach</ar>
+<ar><k>Scriptures</k>
+Sirutik</ar>
+<ar><k>Search</k>
+Cheng</ar>
+<ar><k>Second</k>
+Rup</ar>
+<ar><k>See</k>
+Keer, Soiten</ar>
+<ar><k>Seedlings</k>
+Keswek</ar>
+<ar><k>Seeds</k>
+Keswek, Tenderek</ar>
+<ar><k>Send</k>
+Yokten</ar>
+<ar><k>Separate</k>
+Taiyen</ar>
+<ar><k>Serve a meal from a container</k>
+Sorogun</ar>
+<ar><k>Set out</k>
+Seet</ar>
+<ar><k>Set up</k>
+Tonosi</ar>
+<ar><k>Seven</k>
+Tisap</ar>
+<ar><k>Sharpen</k>
+Lit</ar>
+<ar><k>Shave</k>
+Bior</ar>
+<ar><k>She-goat</k>
+Subendo</ar>
+<ar><k>Sheep</k>
+Kechiryet</ar>
+<ar><k>Sheet</k>
+Sitit</ar>
+<ar><k>Shepherd</k>
+Mestoet</ar>
+<ar><k>Shine</k>
+Luu</ar>
+<ar><k>Shine on</k>
+Luuchi</ar>
+<ar><k>Shoe</k>
+Kweiyot</ar>
+<ar><k>Shoes</k>
+Kwosiek</ar>
+<ar><k>Shoot</k>
+Mwog, Mwogten</ar>
+<ar><k>Shoot toward me</k>
+Mwogun</ar>
+<ar><k>Short</k>
+Nwach</ar>
+<ar><k>Shout esp. when drunk or happy</k>
+chuur</ar>
+<ar><k>Shove off</k>
+Wasten</ar>
+<ar><k>Show</k>
+Parten</ar>
+<ar><k>Sickness</k>
+Mianyondo</ar>
+<ar><k>Sieve</k>
+Kenenda</ar>
+<ar><k>Silly</k>
+Perper</ar>
+<ar><k>Sin</k>
+Leel, Tengekto</ar>
+<ar><k>Sing</k>
+Tien</ar>
+<ar><k>Singer</k>
+Tienindet</ar>
+<ar><k>Sink</k>
+Koosu</ar>
+<ar><k>Sins</k>
+Kalelutik</ar>
+<ar><k>Sisal platter</k>
+Kisiet</ar>
+<ar><k>Sisal string</k>
+Mugungeet</ar>
+<ar><k>Sister</k>
+Tupchet</ar>
+<ar><k>Sister-in-law</k>
+Kamati</ar>
+<ar><k>Sit</k>
+Taboten</ar>
+<ar><k>Six</k>
+Lo</ar>
+<ar><k>Size of</k>
+Teen</ar>
+<ar><k>Skin dress</k>
+Kaliget</ar>
+<ar><k>Skirt</k>
+Marindet</ar>
+<ar><k>Slap</k>
+Pelit</ar>
+<ar><k>Slap hard</k>
+Rabach</ar>
+<ar><k>Slaughter</k>
+Eny</ar>
+<ar><k>Slave</k>
+Kipagasiet</ar>
+<ar><k>Sleep</k>
+Ru</ar>
+<ar><k>Slice</k>
+Kiss</ar>
+<ar><k>Slippers</k>
+Silibas</ar>
+<ar><k>Slippery</k>
+Chabai</ar>
+<ar><k>Sloping</k>
+Chortaiyat</ar>
+<ar><k>Slow; sorry</k>
+Mutyo</ar>
+<ar><k>Small</k>
+Kiten</ar>
+<ar><k>Smash</k>
+Riep</ar>
+<ar><k>Smear</k>
+Mal</ar>
+<ar><k>Smells</k>
+Kweruge</ar>
+<ar><k>Smoke</k>
+Iiyet</ar>
+<ar><k>Snake</k>
+Indaret</ar>
+<ar><k>Snore</k>
+Ngurut</ar>
+<ar><k>So</k>
+Ara, So</ar>
+<ar><k>So now</k>
+Anyun</ar>
+<ar><k>Soft</k>
+Tangus</ar>
+<ar><k>Software</k>
+Softweya</ar>
+<ar><k>Soil</k>
+Ngunguyek</ar>
+<ar><k>Soldier</k>
+Askarindet</ar>
+<ar><k>Son</k>
+Werit</ar>
+<ar><k>Song</k>
+Tiendo</ar>
+<ar><k>Soup</k>
+Sutek</ar>
+<ar><k>Sour</k>
+Arar</ar>
+<ar><k>Sour milk</k>
+Mursik</ar>
+<ar><k>Speak</k>
+Ngalal</ar>
+<ar><k>Spear</k>
+Ngotit</ar>
+<ar><k>Spinal cord</k>
+Rotet</ar>
+<ar><k>Spirit</k>
+Tamirmiriet</ar>
+<ar><k>Spit</k>
+Ngututen</ar>
+<ar><k>Spray</k>
+Piit</ar>
+<ar><k>Squat</k>
+Ripis</ar>
+<ar><k>Stage</k>
+Sten</ar>
+<ar><k>Stand</k>
+Tonon</ar>
+<ar><k>Star</k>
+Kecheiyat</ar>
+<ar><k>Stars</k>
+Kecheik</ar>
+<ar><k>Start</k>
+Inam, Naam</ar>
+<ar><k>Stay</k>
+Pur</ar>
+<ar><k>Steal</k>
+Chor</ar>
+<ar><k>Steep</k>
+Togos</ar>
+<ar><k>Step on</k>
+Tiech</ar>
+<ar><k>Stick together</k>
+Namge</ar>
+<ar><k>Sting nettle</k>
+Isyet</ar>
+<ar><k>Stinking</k>
+Kwerugee</ar>
+<ar><k>Stomach</k>
+Moet</ar>
+<ar><k>Stone</k>
+Koita</ar>
+<ar><k>Stop</k>
+Tonosi, Teer</ar>
+<ar><k>Storm</k>
+Usonet</ar>
+<ar><k>Story</k>
+Atindoniot</ar>
+<ar><k>Straw</k>
+Rogoret</ar>
+<ar><k>Stretch</k>
+Chul</ar>
+<ar><k>Strong</k>
+Kiim</ar>
+<ar><k>Stupid</k>
+Abusat</ar>
+<ar><k>Stupidity</k>
+Abusnatet</ar>
+<ar><k>Submerge</k>
+Lis</ar>
+<ar><k>Subtract</k>
+Inemun</ar>
+<ar><k>Succeed</k>
+Bor</ar>
+<ar><k>Success</k>
+Borotet</ar>
+<ar><k>Suckle</k>
+Chuchun</ar>
+<ar><k>Sugarcane</k>
+Miwat</ar>
+<ar><k>Sun</k>
+Asista</ar>
+<ar><k>Sunday</k>
+Chumombili</ar>
+<ar><k>Support with (s)</k>
+Tii</ar>
+<ar><k>Surround</k>
+Mutyin</ar>
+<ar><k>Swallow - bird</k>
+Chepiswet</ar>
+<ar><k>Swallow food</k>
+Lugui</ar>
+<ar><k>Swear</k>
+Yosyen</ar>
+<ar><k>Sweep</k>
+Buuch</ar>
+<ar><k>Sweet</k>
+Anyiny</ar>
+<ar><k>Swim</k>
+Bir peek</ar>
+<ar><k>Table; Workbench</k>
+Meset</ar>
+<ar><k>Taboo</k>
+Mumiat</ar>
+<ar><k>Tail</k>
+Saruryet</ar>
+<ar><k>Tails</k>
+Sarurik</ar>
+<ar><k>Take</k>
+Ip, Ib</ar>
+<ar><k>Take out of cooking fire</k>
+Sutun</ar>
+<ar><k>Tarmac road</k>
+Lam</ar>
+<ar><k>Teach</k>
+Neet</ar>
+<ar><k>Teacher</k>
+Konetindet</ar>
+<ar><k>Teeth</k>
+Kelek</ar>
+<ar><k>Telephone</k>
+Simoit</ar>
+<ar><k>Television</k>
+Telepision</ar>
+<ar><k>Tell</k>
+Mwachin, Lenchin</ar>
+<ar><k>Temporary hut for initiates</k>
+Menjo</ar>
+<ar><k>Tempt</k>
+Yom</ar>
+<ar><k>Temptation</k>
+Yomset</ar>
+<ar><k>Ten</k>
+Taman</ar>
+<ar><k>Tender</k>
+Tala</ar>
+<ar><k>Tent</k>
+Emait</ar>
+<ar><k>The Kipsigis people of Kenya</k>
+Kipsigis</ar>
+<ar><k>Thief</k>
+Chorindet</ar>
+<ar><k>Thin</k>
+Sagitat</ar>
+<ar><k>Thing</k>
+Kii</ar>
+<ar><k>Thorough</k>
+Kastaiyat</ar>
+<ar><k>Those ones</k>
+Chun</ar>
+<ar><k>Three</k>
+Somok</ar>
+<ar><k>Threshing container</k>
+Kenut</ar>
+<ar><k>Throw away</k>
+Wirten</ar>
+<ar><k>Throw away - e.g. rubbish</k>
+Lacten</ar>
+<ar><k>Throw object at</k>
+Wir</ar>
+<ar><k>Thursday</k>
+Kasitab Angwan</ar>
+<ar><k>Tie</k>
+Rat</ar>
+<ar><k>Time</k>
+Sait</ar>
+<ar><k>To be living in</k>
+Mengisiet</ar>
+<ar><k>To construct wall with mud</k>
+Lach</ar>
+<ar><k>To corner somebody or animal</k>
+Sach</ar>
+<ar><k>To flog</k>
+Is</ar>
+<ar><k>Toilet</k>
+Kapchoo</ar>
+<ar><k>Tomato</k>
+Nyanyat</ar>
+<ar><k>Tomatoes</k>
+Nyanyik</ar>
+<ar><k>Tomorrow</k>
+Karon</ar>
+<ar><k>Tongue</k>
+Ngelepta</ar>
+<ar><k>Toothbrush</k>
+Muswagit</ar>
+<ar><k>Tractor</k>
+Tinget</ar>
+<ar><k>Tree</k>
+Ketit</ar>
+<ar><k>Trivalities</k>
+Tangoita</ar>
+<ar><k>True</k>
+Iman</ar>
+<ar><k>Truth</k>
+Imanit</ar>
+<ar><k>Truthfulness</k>
+Imanda</ar>
+<ar><k>Tuesday</k>
+Kasitab Aeng</ar>
+<ar><k>Twist</k>
+Iiny</ar>
+<ar><k>Twist (2)</k>
+Tam</ar>
+<ar><k>Twisted</k>
+Iinyak</ar>
+<ar><k>Two</k>
+Aeng</ar>
+<ar><k>Typing</k>
+Taipen</ar>
+<ar><k>Tyre</k>
+Mugunget</ar>
+<ar><k>Uncle</k>
+Abule</ar>
+<ar><k>Understand</k>
+Kuiyen</ar>
+<ar><k>Understands</k>
+Kuitos</ar>
+<ar><k>University</k>
+Univasiti</ar>
+<ar><k>Untie</k>
+Tiach</ar>
+<ar><k>Until</k>
+Agoi</ar>
+<ar><k>Up</k>
+Barak</ar>
+<ar><k>Urination</k>
+Yai peek</ar>
+<ar><k>Urine</k>
+Sogororek</ar>
+<ar><k>Us</k>
+Echek</ar>
+<ar><k>Use</k>
+Boisien</ar>
+<ar><k>Vagina</k>
+Busiat, Mogolet</ar>
+<ar><k>Vein; root</k>
+Tigityot</ar>
+<ar><k>Village</k>
+Kokwet</ar>
+<ar><k>Village elder</k>
+Kiptaiyatab kokwet</ar>
+<ar><k>Virgin</k>
+Bergeiyat</ar>
+<ar><k>Visible</k>
+Togu</ar>
+<ar><k>Visitor</k>
+Tondet</ar>
+<ar><k>Visitors</k>
+Toek</ar>
+<ar><k>Vomit</k>
+Igungun</ar>
+<ar><k>Wait</k>
+Kany</ar>
+<ar><k>Wait first</k>
+Kany korok</ar>
+<ar><k>Wake up</k>
+Nget</ar>
+<ar><k>Walk about</k>
+Wendot</ar>
+<ar><k>Walks quickly</k>
+Chaktoo</ar>
+<ar><k>Wall</k>
+Inat</ar>
+<ar><k>Want</k>
+Mach</ar>
+<ar><k>Warthog</k>
+Toret</ar>
+<ar><k>Wash e.g. clothes</k>
+Mwet</ar>
+<ar><k>Wasp</k>
+Karamiet</ar>
+<ar><k>Watchman</k>
+Ripindet</ar>
+<ar><k>Water</k>
+Peek</ar>
+<ar><k>Watery</k>
+Pei</ar>
+<ar><k>Wean</k>
+Luksii</ar>
+<ar><k>Weaver bird</k>
+Chepusakiat</ar>
+<ar><k>Wedding</k>
+Katunsiet</ar>
+<ar><k>Wednesday</k>
+Kasitab Somok</ar>
+<ar><k>Weeding</k>
+Semberchin</ar>
+<ar><k>Weighs down</k>
+Nyigistoo</ar>
+<ar><k>Weighty</k>
+Nyigisindo</ar>
+<ar><k>What?</k>
+Ne</ar>
+<ar><k>Wheel</k>
+Purwet</ar>
+<ar><k>Where</k>
+Ngoro</ar>
+<ar><k>Where is it</k>
+Miano</ar>
+<ar><k>Which</k>
+Ainon</ar>
+<ar><k>White man</k>
+Chumindet</ar>
+<ar><k>White woman</k>
+Chepchumindet</ar>
+<ar><k>White; New</k>
+Lel</ar>
+<ar><k>Who</k>
+Ngo</ar>
+<ar><k>Who is</k>
+Ne</ar>
+<ar><k>Whose</k>
+Nepo</ar>
+<ar><k>Why</k>
+Amunee</ar>
+<ar><k>Wide</k>
+Paraa</ar>
+<ar><k>Will</k>
+Maget</ar>
+<ar><k>Wind</k>
+Koristo</ar>
+<ar><k>Window</k>
+Tirisiet</ar>
+<ar><k>Windows operating system</k>
+Windos</ar>
+<ar><k>Wing</k>
+Kapkachet</ar>
+<ar><k>Wipe</k>
+Uus</ar>
+<ar><k>Wire</k>
+Waiyat</ar>
+<ar><k>Wisdom</k>
+Ngomnotet</ar>
+<ar><k>Witch doctor</k>
+Chepsageiyot</ar>
+<ar><k>Witchcraft</k>
+Busurek</ar>
+<ar><k>With you</k>
+Kobotok</ar>
+<ar><k>With; and</k>
+Ak</ar>
+<ar><k>Witness</k>
+Paoriat</ar>
+<ar><k>Witnesses</k>
+Paorinik</ar>
+<ar><k>Wolf</k>
+Suiyot</ar>
+<ar><k>Woman</k>
+Kwondo</ar>
+<ar><k>Wonder; Be silly</k>
+Kwong</ar>
+<ar><k>Wonders</k>
+Kwongutik</ar>
+<ar><k>Wood</k>
+Pagoiyot</ar>
+<ar><k>Words</k>
+Ngalek</ar>
+<ar><k>Work</k>
+Boisyet</ar>
+<ar><k>Worms</k>
+Magargarek</ar>
+<ar><k>Wristwatch</k>
+Sait</ar>
+<ar><k>Write</k>
+Sir</ar>
+<ar><k>Year</k>
+Kenyit</ar>
+<ar><k>Yeast</k>
+Mermeruk</ar>
+<ar><k>Yellow</k>
+Talelyo</ar>
+<ar><k>Yesterday</k>
+Amut</ar>
+<ar><k>Yoke</k>
+Chogit</ar>
+<ar><k>You</k>
+Inye</ar>
+<ar><k>You - plural</k>
+Okwek</ar>
+<ar><k>Young man</k>
+Kiptoiyot</ar>
+<ar><k>Young of</k>
+Arwet</ar>
+<ar><k>Young ones of e.g. bird</k>
+Arek</ar>
+<ar><k>Young woman</k>
+Cheptongilo</ar>
+<ar><k>Youths</k>
+Barnotik</ar>
+<ar><k>Zebra</k>
+Laitigo</ar>
+<ar><k>a day</k>
+Petut</ar>
+<ar><k>a lot</k>
+Kot</ar>
+<ar><k>a story teller's opening word</k>
+Tangoch</ar>
+<ar><k>a thousand</k>
+Eliput</ar>
+<ar><k>abase oneself</k>
+Kutuny</ar>
+<ar><k>ability to do (s)</k>
+Kamuktaet</ar>
+<ar><k>above ceiling</k>
+Tabot</ar>
+<ar><k>absent</k>
+Momii</ar>
+<ar><k>abuse; curse</k>
+Chub</ar>
+<ar><k>academicians</k>
+Kipsomaninik</ar>
+<ar><k>acceptable</k>
+Chamda</ar>
+<ar><k>accident</k>
+Nyasutiet</ar>
+<ar><k>accidents</k>
+Nyasutik</ar>
+<ar><k>accumulate</k>
+Bas</ar>
+<ar><k>active</k>
+Chepchep</ar>
+<ar><k>add</k>
+Tes</ar>
+<ar><k>aeroplane</k>
+Ndegeit</ar>
+<ar><k>afterwards</k>
+Koobata</ar>
+<ar><k>age mate - men</k>
+Botum</ar>
+<ar><k>age mate - women</k>
+Bamwai</ar>
+<ar><k>age set</k>
+Ipinda</ar>
+<ar><k>alcohol - spirits</k>
+Wirgit</ar>
+<ar><k>alert</k>
+Chepchep</ar>
+<ar><k>all</k>
+Tugul</ar>
+<ar><k>all powerful</k>
+Kamuktaet</ar>
+<ar><k>allow</k>
+Chamchin</ar>
+<ar><k>allowed</k>
+Chamda</ar>
+<ar><k>also</k>
+Koraa, Agot</ar>
+<ar><k>alter</k>
+Mabwai</ar>
+<ar><k>ambush</k>
+Seet</ar>
+<ar><k>ancient sun god of kipsigis</k>
+Asis</ar>
+<ar><k>angel</k>
+Malaigayat</ar>
+<ar><k>another</k>
+Ingo</ar>
+<ar><k>another one</k>
+Age</ar>
+<ar><k>ant</k>
+Pirechot</ar>
+<ar><k>antelope</k>
+Cheptirgichet, Boinet</ar>
+<ar><k>anus</k>
+Kwetiot</ar>
+<ar><k>ape</k>
+Moset</ar>
+<ar><k>apologise</k>
+Nyoogat</ar>
+<ar><k>archer's bag</k>
+Motiet</ar>
+<ar><k>argument</k>
+Tiiyet</ar>
+<ar><k>arm</k>
+Eut</ar>
+<ar><k>army</k>
+Ami</ar>
+<ar><k>arrow</k>
+Kipchabet</ar>
+<ar><k>as long as</k>
+Taakityo</ar>
+<ar><k>aside the house</k>
+Keter</ar>
+<ar><k>ask</k>
+Som</ar>
+<ar><k>assembly</k>
+Polen</ar>
+<ar><k>at present</k>
+Inguni</ar>
+<ar><k>at; In</k>
+En</ar>
+<ar><k>at; in</k>
+En</ar>
+<ar><k>athletics</k>
+Ngwaek</ar>
+<ar><k>baby</k>
+Mwet</ar>
+<ar><k>baby born; velvet monkey</k>
+Chereret</ar>
+<ar><k>bad</k>
+Ya</ar>
+<ar><k>badness</k>
+Yaityet</ar>
+<ar><k>bag</k>
+Mapuget</ar>
+<ar><k>banishment</k>
+Woondo</ar>
+<ar><k>bank</k>
+Bengi</ar>
+<ar><k>barren woman</k>
+Sonet</ar>
+<ar><k>basket</k>
+Kitonget</ar>
+<ar><k>bastard</k>
+Araket</ar>
+<ar><k>bath</k>
+Mwetkei</ar>
+<ar><k>bathroom</k>
+Papit</ar>
+<ar><k>be afraid</k>
+Iywei</ar>
+<ar><k>be angry</k>
+Nerech</ar>
+<ar><k>be cured; be alive</k>
+Sob</ar>
+<ar><k>be done</k>
+Yayak</ar>
+<ar><k>be fortunate</k>
+Sere</ar>
+<ar><k>be in a coma</k>
+Rumogen</ar>
+<ar><k>be lonely</k>
+Sirir</ar>
+<ar><k>be quiet</k>
+Sis</ar>
+<ar><k>be shocked</k>
+Arogen</ar>
+<ar><k>be sick</k>
+Mian</ar>
+<ar><k>be well mannered</k>
+Tagur</ar>
+<ar><k>beast</k>
+Sonet</ar>
+<ar><k>beast; emblem</k>
+Tiondo</ar>
+<ar><k>beat; ring</k>
+Bir</ar>
+<ar><k>beautiful</k>
+Kararan</ar>
+<ar><k>because; narrate</k>
+Amun</ar>
+<ar><k>bed</k>
+Kitogut</ar>
+<ar><k>bee</k>
+Segemiat</ar>
+<ar><k>beer</k>
+Maiywek</ar>
+<ar><k>bees</k>
+Segemik</ar>
+<ar><k>beg</k>
+Som</ar>
+<ar><k>begin</k>
+Inam</ar>
+<ar><k>begining</k>
+Taunet</ar>
+<ar><k>behaviour</k>
+Atepto</ar>
+<ar><k>behind the house</k>
+Keter</ar>
+<ar><k>behind; end</k>
+Let</ar>
+<ar><k>being lost; crooked</k>
+Petot</ar>
+<ar><k>belittle</k>
+Wit</ar>
+<ar><k>bell</k>
+Twalyot</ar>
+<ar><k>belonging to</k>
+Ab</ar>
+<ar><k>bend something</k>
+Wis</ar>
+<ar><k>besides</k>
+Kotabala</ar>
+<ar><k>bewitch</k>
+Pan</ar>
+<ar><k>big</k>
+Woo</ar>
+<ar><k>big in size</k>
+Nerat</ar>
+<ar><k>big rat</k>
+Kimenjerut</ar>
+<ar><k>bird</k>
+Taritiet</ar>
+<ar><k>birds</k>
+Taritik</ar>
+<ar><k>bite</k>
+Sus</ar>
+<ar><k>bite off</k>
+Ngeny</ar>
+<ar><k>black</k>
+Tui</ar>
+<ar><k>blanket</k>
+Branketit</ar>
+<ar><k>blessed</k>
+Berurot</ar>
+<ar><k>blind</k>
+Korat</ar>
+<ar><k>blood</k>
+Korotik</ar>
+<ar><k>blow</k>
+Kut</ar>
+<ar><k>blunders</k>
+Kalelutik</ar>
+<ar><k>blunt knife</k>
+Sagetiet</ar>
+<ar><k>boat</k>
+Melit</ar>
+<ar><k>body</k>
+Porto</ar>
+<ar><k>bone</k>
+Kawet</ar>
+<ar><k>bones</k>
+Kawek</ar>
+<ar><k>book</k>
+Bukuit</ar>
+<ar><k>boom; bench</k>
+Pomit</ar>
+<ar><k>borehole</k>
+Keringet</ar>
+<ar><k>bound; imprisoned</k>
+Ratat</ar>
+<ar><k>boundary</k>
+Kiwotet</ar>
+<ar><k>bow</k>
+Kuyanda</ar>
+<ar><k>boy</k>
+Ngetet</ar>
+<ar><k>brain; computer processor</k>
+Kundit</ar>
+<ar><k>branch</k>
+Temet</ar>
+<ar><k>bread</k>
+Magatiat</ar>
+<ar><k>break</k>
+Il</ar>
+<ar><k>breath</k>
+Kapuset</ar>
+<ar><k>bride</k>
+Mureret</ar>
+<ar><k>bring along</k>
+Tiun</ar>
+<ar><k>broom</k>
+Pirirwet</ar>
+<ar><k>brother</k>
+Tupchet</ar>
+<ar><k>brown</k>
+Murwon</ar>
+<ar><k>brush</k>
+Siit, Purasit</ar>
+<ar><k>bufallo; heavens</k>
+Soet</ar>
+<ar><k>build</k>
+Tech</ar>
+<ar><k>bull</k>
+Kirgit</ar>
+<ar><k>bullet</k>
+Risasiat</ar>
+<ar><k>burn</k>
+Bel</ar>
+<ar><k>burning</k>
+Lalei</ar>
+<ar><k>bury</k>
+Tuup</ar>
+<ar><k>bus</k>
+Basit</ar>
+<ar><k>business</k>
+Mungaret</ar>
+<ar><k>butterfly</k>
+Tapurpuriet</ar>
+<ar><k>calamities</k>
+Nyasutik</ar>
+<ar><k>calamity</k>
+Nyasutiet</ar>
+<ar><k>calf</k>
+Moita</ar>
+<ar><k>call</k>
+Kur</ar>
+<ar><k>camera</k>
+Kamera</ar>
+</xdxf>
