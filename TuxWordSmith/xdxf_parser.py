@@ -1,16 +1,22 @@
 # -*- coding: UTF-8 -*-
 """
-/***************************************************************************
+/**********************************************************
 
-	Author			:Charles B. Cosse 
-	
-	Email			:ccosse@gmail.com
-					
-	Website			:www.asymptopia.org
-	
-	Copyright		:(C) 2002-2007 Asymptopia Software.
-	
- ***************************************************************************/
+    Organization    :AsymptopiaSoftware | Software@theLimit
+
+    Website         :www.asymptopia.org
+
+    Support         :www.asymptopia.org/forum
+
+    Author          :Charles B. Cosse
+
+    Email           :ccosse@asymptopia.org
+
+    Copyright       :(C) 2006-2015 Asymptopia Software
+
+    License         :GPLv3
+
+***********************************************************/
 """
 import xml,sys,os,string,unicodedata,time
 from random import random

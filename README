@@ -1,5 +1,28 @@
 <pre>
 ========================
+TuxWordSmith-0.8.0
+========================
+December 6, 2014
+
+1. New theme ala TuxMathScrabble-HTML5
+2. Fix wxpython support 2.8 and 3.0
+3. Rework wxadmin interface
+4. Remove extraneous u-double-dot char from Spanish-English letter distribution
+5. Tested on Mac, Gentoo Linux and Ubuntu 14.
+
+TuxWordSmith is a sister application to TuxMathScrabble.  Historically, TuxMathScrabble (TMS)
+came first.  The xdxf dictionaries made TWS possible, so I did, but it's a very rudimentary 
+implementation.  Several of the dictionary resources are small.  This could be ported to HTML5
+just like the new TMS recently was.  TWS is scehduled to become part of the AutoTeach project.
+Please visit:  http://www.autoteach.net  and http://www.asymptopia.org
+For support visit: http://www.asymptopia.org/forum
+
+
+NOTE: For Ubuntu use gtk2.8
+
+NOTE2: The English-English dictionary is called "Merriam-Webster-Collegiate" (1932)
+
+========================
 TuxWordSmith-0.7.11
 ========================
 January 18, 2010

@@ -5,13 +5,15 @@
 
     Website         :www.asymptopia.org
 
+    Support         :www.asymptopia.org/forum
+
     Author          :Charles B. Cosse
 
-    Email           :ccosse@gmail.com
+    Email           :ccosse@asymptopia.org
 
-    Copyright       :(C) 2006-2008 Asymptopia Software
+    Copyright       :(C) 2006-2015 Asymptopia Software
 
-    License         :GPL2
+    License         :GPLv3
 
 ***********************************************************/
 """

@@ -1,0 +1,316 @@
+========================
+TuxWordSmith-0.7.11
+========================
+January 18, 2010
+
+1.	Bugfix for missing path variable on some operating systems.
+
+========================
+TuxWordSmith-0.7.10
+========================
+January 15, 2010
+
+1.	All users take their own unique copy of .tws_config_master and save to $HOME/.tws_config
+
+========================
+TuxWordSmith-0.7.9
+========================
+December 27, 2009
+
+1.	Bugfix for display.init() problem under windows (my XP at least).
+	Specifically, added the following @lines 170-173 tws.py:
+
+	if self.env.OS=="win":
+		os.environ['SDL_VIDEODRIVER'] = 'windib'
+	pygame.display.init()
+	pygame.init()
+
+2.	Bugfix @TuxWordSmith/environment.py to avoid ambiguity of having 2 nested
+	TuxWordSmith directories ( ie. TuxWordSmith/TuxWordSmith/ ).  Caused errors
+	running installed version from $HOME with $HOME/TuxWordSmith existing.
+
+========================
+TuxWordSmith-0.7.8
+========================
+December 22, 2009
+
+1.	Correction to path for installed version.
+
+========================
+TuxWordSmith-0.7.7
+========================
+December 14, 2009
+
+1.	CPU activity capped
+2.	All platforms use same download
+3.	All languages included in one download variant
+
+========================
+TuxWordSmith-0.7.0
+========================
+May 6, 2009
+
+1.	The wxGTK (aka wxPython, wxWidgets, etc) GUI toolkit is now merely an option, and no longer required.
+2.	In connection with [1] the application now accepts 3 command line options: -help, -wx and -d <dictionary>
+
+========================
+TuxWordSmith-0.6.7
+========================
+December 6, 2008
+
+1.	Fixed bug where tile dropped on existing got permanently "absorbed" (ie. disappeared)
+2. 	Changed default throwback behavior: Now, invalid moves not thrown back. Throwback via keyboard shortcut (F7)
+3.	Program launcher name changed from TuxMathScrabble to lowercase tuxmathscrabble
+4.	Default included dictionaries are Merriam-Webster English Dictionary, French-English, Spanish-English
+5.	Filter out biographical and geographical names (entries having xml tag = "biographical name")
+
+========================
+TuxWordSmith-0.6.6
+========================
+November 2, 2008
+
+1.	Arbitrary number of dictionary resources can exist; they are now dynamically "discovered".
+2.	F1 on background clears last definition (more convenient for 1-handed playing.
+3.	Mouse wheel over tray shuffles tray tiles
+4.	Long-standing bug fixed: when "show all" in admin panel, then save, lose sidebar image pathname -> crash! (fixed).
+5.	Mouse wheel over tray shuffles tiles (saves having to reach w/left hand to press F5, as previously implemented)
+6.	Fixed crash on disconnected single-letter submission where variable "exprtype" reference undefined
+7.	Changed some variables to be shown in admin panel by default: SoundOn,
+8.	Fixed capability to save changes to IMAGE_ADMIN_SIDEBAR
+9.	Reduced-by-consolidation use of color and font variables ... 
+10.	Went from "wx.lib.flatnotebook" back to "wx.Notebook" for older wx installation compatability.
+11.	Restored ToolTips for all items throughout admin configuration panel.
+12. Updated fireworks show by going over each type and making parameter adjustments 
+13. F2 Key fills background color and currently rendered definition, only, so can read (ie as tiles underneathe often make difficult to read).
+14.	Installation is now optional.  Game can be played from unzipped package directory.
+15. Fixed last definition surface layout and word wrapping.
+16. Configurable limitations on Tux submission to make easier for kids.
+
+NEXT RELEASE:
+1.	Configurable limitations on Tux submission to make easier for kids.
+2.	Work on salvaging more words from dictionary resources.
+3.	Monster "rosetta" dictionary -- all langs cross-referenced.
+
+========================
+TuxWordSmith-0.6.5
+========================
+July 7, 2008
+
+1. English-Chinese ... Play in English, Definitions in Chinese (Traditional, Simple, Pinyin)
+	This is the main feature of this release.
+	
+2. 21 new dictionary resources created by inverting existing dictionaries. Some are sparse,
+	like Thai-English, English-Swahili, etc ... but interesting for novelty.  Others are very
+	complete.  Most have about 1000-3000 words, some have over 50,000 words.  More documentation
+	on statistics will appear in the near(?) future...  
+	
+3. English-German and English-Russian full dictionaries also added. 
+	These are not created by inverting existing resources, and so are very complete.
+
+New Resources:
+
+Albanian-English
+English-Basque
+English-Chinese (9962 words)
+English-Czech
+English-Danish
+English-Dutch
+English-Norwegian
+English-Polish
+English-Spanish-Castillian
+English-Swahili (small)
+Finnish-English
+Haitian-Creole-English
+Hindi-English
+Hungarian-French
+Hungarian-German
+Irish-Gaelic-English
+Persian-English
+Russian-Finnish
+Serbian-English
+Slovene-English
+Thai-English (small)
+
+
+English-German (big)
+English-Russian (big)
+
+========================
+TuxWordSmith-0.6.4
+========================
+May 1, 2008
+
+1. Window manager close button can now be used to close the application. No other changes.
+
+========================
+TuxWordSmith-0.6.3
+========================
+April 26, 2008
+
+1. The download has been split into 2 separate downloads: One for the application and default 
+French-English dictionary, and one for the other 40+ languages. French-English was chosen as 
+the default because of it was of reasonable size, realatively complete, and demonstrates the
+use of special characters.  The splitting was done to free-up bandwidth on the author's server.
+Both the application and add-ons come with installers for Lin/Mac/Win, so there should be no
+problems.  Just follow the instructions and install the application before the add-ons.
+
+========================
+TuxWordSmith-0.6.2
+========================
+April 18, 2008
+
+1. Small bug fix: When the user has dragged a tile to the board and presses F5 to shuffle, the
+game throws the tiles back to the tray and shuffles them, as it should.  However, the call
+"self.submissionspots.empty()" should also have been performed afterwards to clear-out the board
+spots.  The result was that when the user next attempted to submit a word for validation, some
+"submissionspots" were still set as "occupied", when, in fact, they were not, thus leading to a 
+crash!  This has been fixed. 
+
+========================
+TuxWordSmith-0.6.1
+========================
+April 16, 2008
+
+1. The game now maintains a persistent copy of the reference throughout the session, such that
+lookup times are essentially instant. 
+
+2. The dictionary parser has been rewritten to eliminate abbreviations and several other "unfair"
+entries previously played by Tux.
+
+3. Behavior at game start-up has been changed: Previously there was a long pause while the
+game took inventory of the available dictionary resources.  Then it launched into "demo" mode
+automatically.  Thus, if game was already configured and user merely wanted to play, they would
+have to endure 2x long pauses -- 1 before going into demo mode, and 2 after pushing the "play"
+button from within demo mode.  This has now been changed as follows: The old fireworks show/screen-
+saver has been reintroduced, along with 3 buttons: [Demo, Play, Admin]. Now the fireworks proceed
+until user chooses a button.  In case the user wants the demo mode to play endless scrabble, ie
+start a new game (as opposed to reverting to fireworks screensaver) then there has been a toggle
+added in the Admin panel ("SCREENSAVER_ON" -- default=True) which can be turned-off to achieve 
+this.  Overall, it should be more pleasant to use, since now you can go direct to game/demo/admin.
+
+4. The validation rules for interactive play had a logic bug that was much too restrictive.  As a
+result, adding "b" to "oil", for example, was not allowed. This was obviously not intended and has
+been fixed.  Also, wrapping an existing submission was resulting in intermediate letters not being
+added to the submission.  Rather significant bugs! These avoided detection, however, because the
+computer player does not use the same validation code, and most of the debugging was done while
+watching computer vs. computer.   
+
+5. Webster's Collegiate dictionary (2003) replaced old Webster's (1913).
+
+6. F8 (Skip and exchange all tiles) had a bug whereby tiles were indeed thrown back to the bag-of-tiles,
+only to be redrawn. Now they are inserted at random positions within the bag-of-tiles (vs. appended)
+so that you really do get a new set of tiles now.
+
+7. Feedback info is written to the screen when loading and analyzing the configured dictionary resource.
+
+NOTE: Please send bug reports to ccosse@gmail.com so bugs can get fixed!
+
+
+========================
+TuxWordSmith-0.6.0-FINAL
+========================
+March 19,2008
+
+1. Added Websters 1913 English Dictionary
+2. Added Spanish-Castillian-English Dictionary, fixed header of Irish-Gaelic resource and English-Thai
+3. Fixed some bugs which prevented  some valid submissions from being accepted
+4. Changed notebook style to fancier type in wxGTK-2.8.7
+
+
+======================
+TuxWordSmith-0.6.0-rc6
+======================
+February 18,2008
+
+1. Changed environment.py so Mac users run with paths relative to installation directory, thereby avoiding all path problems.
+
+======================
+TuxWordSmith-0.6.0-rc5
+======================
+February 7,2008
+
+1. Characters w/modifications somehow were getting into English-side when playing English-Any mode.  (This was accidentally introduced in a recent iteraction, somewhere, in the course of streamlining the code)
+2. Fixed problem where definitions re-posted in response to right-click were formatted differently than originally displayed at time of original submission.
+3. Loading message while application busy computing distributions etc.
+
+NEED: Tooltips for DefaultButton in Admin control widgets only show when user stops scrolling and mouse falls over DefaultButton (wx bug?).
+NEED: Code cleanup (font loading section)
+NEED: Fix the bgcolor of string overlays -- still showing default green fringe where rendered pixel values are +/- 1 or 2. 
+NEED/IDEA: Central data structure w/vector approach ala Webalyzer project (Future release)
+
+======================
+TuxWordSmith-0.6.0-rc4
+======================
+Fixed character icon rendering problems in cfgctrlobj by resizing icons -> W=150
+
+Changed formatting of help screen (made wider to accomodate new lines)
+
+"Advanced" toggle added to admin control panel to show additional config variable widgets (hidden by default)
+
+Updates to README documentation, and README panel -> admin gui.
+
+======================
+TuxWordSmith-0.6.0-rc3
+======================
+Fixed scrollbar problems in admin control panel
+
+Implemented  new variable:IMAGE_BG_ALPHA (pending further experimentation)
+
+Further modifications to font loading procedure
+
+Clicking on submitted words renders that word's definition in the definition area 
+
+Ability to change fonts used for tiles. Several fonts included, add your own easily. Selection made 
+via combobox in admin gui, as usual.
+
+======================
+TuxWordSmith-0.6.0-rc2
+======================
+
+Modified setup.py for Mac users; now checks for /var/games, and if not found, then create those
+dirs as necessary.  However, problems related to lack of root user on Mac are still reported. Testing continues...
+
+Modifications to font loading to accomodate differences in font rendering under Windows.
+
+Hid several config variables to make Admin Control Panel simpler to navigate.
+
+Additions to help overlay re: right/left clicking on various objects to display info overlays.
+
+NEED: Some dictionaries are having some entries with characters that shouldn't be there...like "e" w/accent acute in the English-French dictionary, for example, and "c" w/cedilla in the English-Italian dictionary.  Will fix for rc3.
+NEED: Fix new admin panel scrollbars!
+NEED: better font for windows.
+NEED: fix the bgcolor of string overlays -- still showing default green fringe where rendered pixel values are +/- 1 or 2. 
+NEED: IMAGE_BG_ALPHA variable
+NEED: "advanced" toggle to display additional (currently hidden) config variables in admin control panel
+NEED: fix combobox widget so values show! (works on windows, not on Linux -- there's a first!)
+NEED: FAQ, documentation
+
+======================
+TuxWordSmith-0.6.0-rc1
+======================
+
+In TMS tiles are drawn from a flat distribution, and can thus be drawn on-the-fly. In TWS, however,
+the letter distributions are not flat (they are computed based on frequency-of-occurance of each
+character in the dictionary resource) and thus we maintain a "bag of tiles" containing the correct
+relative numbers of character.
+
+Any time a player elects to skip a turn, all tiles are automatically swapped and the counter which
+counts the number of consecutive skips is incremented, 
+
+NEED:
+ - Salvage of words, esp in Greek-English
+ - Overlay unicode support
+ - Overlay distribution (have that func somewhere...)
+ - Combobox selection in admin
+ - check for STOP_RUNNING in mkidxfingerprint
+
+The AAA-Oxford-English dictionary should be sufficient for use by kids (assuming kids use basic words).
+
+Left-click on locked words for definition overlay.
+Right-click on tiles for tile info. 
+F1 to clear definition area
+
+Select the dictionary resource from the combobox list widget in the Admin panel. Don't forget to save
+your selection!
+
+

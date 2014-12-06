@@ -5,13 +5,11 @@
 
     Website         :www.asymptopia.org
 
-    Support         :www.asymptopia.org/forum
-
     Author          :Charles B. Cosse
 
-    Email           :ccosse@asymptopia.org
+    Email           :ccosse@gmail.com
 
-    Copyright       :(C) 2006-2015 Asymptopia Software
+    Copyright       :(C) 2006-2010 Asymptopia Software
 
     License         :GPLv3
 
@@ -23,16 +21,16 @@ from environment import *
 DEBUG=0
 
 class CfgCtrlObj(wx.Panel):
-	def __init__(self,parent,key,obj_dict,xypos,dxysize):
+	def __init__(self,cp,key,obj_dict):
 		if DEBUG:print key
 		if DEBUG:print obj_dict
 		self.key=key
 		self.obj_dict=obj_dict
 		self.label=None
 		self.env=Environment("TuxWordSmith")#only need this for paths to Actor images ...
-		wx.Panel.__init__(self,parent,wx.NewId(),xypos,dxysize)
+		wx.Panel.__init__(self,cp,wx.NewId(),wx.DefaultPosition,wx.DefaultSize,style=wx.FULL_REPAINT_ON_RESIZE)
 		
-		sbox=wx.StaticBox(self,-1,key,xypos,dxysize);
+		sbox=wx.StaticBox(self,-1,key,wx.DefaultPosition,wx.DefaultSize);
 		self.sbsizer=wx.StaticBoxSizer(sbox,wx.HORIZONTAL);
 		sizer=wx.BoxSizer(wx.HORIZONTAL)
 		

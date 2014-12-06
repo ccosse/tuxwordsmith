@@ -7,11 +7,13 @@
 
     Website         :www.asymptopia.org
 
+    Support         :www.asymptopia.org/forum
+
     Author          :Charles B. Cosse
 
-    Email           :ccosse@gmail.com
+    Email           :ccosse@asymptopia.org
 
-    Copyright       :(C) 2006-2010 Asymptopia Software
+    Copyright       :(C) 2006-2015 Asymptopia Software
 
     License         :GPLv3
 
@@ -215,6 +217,10 @@ class TuxWordSmith(TWSSolver):
 				self.MODE=1
 				return 1
 				
+			if self.quit_button.rect.collidepoint(pygame.mouse.get_pos()):
+				self.STOP_RUNNING=1
+				sys.exit()
+
 			#ADMIN BUTTON:
 			elif self.admin_button.rect.collidepoint(pygame.mouse.get_pos()):
 				self.AMFULLSCREEN=0
@@ -552,7 +558,8 @@ class TuxWordSmith(TWSSolver):
 						board_spot.take_guest(tile,1)
 						board_spot.msg=self.last_str_defn
 						board_spot.lock()
-						self.AnimatedTiles[board_spot.getMN()[0]][board_spot.getMN()[1]].queue('celebrate')
+						if self.global_config['TILE_ANIMATIONS']['value']==1:
+							self.AnimatedTiles[board_spot.getMN()[0]][board_spot.getMN()[1]].queue('celebrate')
 						
 		self.players[self.player_idx].actor.queue('go_back')
 		self.players[self.waiting_player_idx()].actor.queue('get_up')
@@ -892,25 +899,25 @@ class TuxWordSmith(TWSSolver):
 		y0=10
 		vspc=5
 		self.tuxscorestring="Tux:%03d"%self.players[0].score
-		surf=self.hudfont.render(self.tuxscorestring,1,self.global_config['COLOR_BG_PLAYER0_TILE']['value'],self.global_config['COLOR_BG']['value'])
+		surf=self.hudfont.render(self.tuxscorestring,1,self.global_config['COLOR_FG_PLAYER0_TILE']['value'],self.global_config['COLOR_BG']['value'])
 		surf.set_colorkey(self.global_config['COLOR_BG']['value'])
 		self.screen.blit(surf,(20,y0))
 		y0+=surf.get_height()+vspc
 		
 		self.playerscorestring="You:%03d"%self.players[1].score
-		surf=self.hudfont.render(self.playerscorestring,1,self.global_config['COLOR_BG_PLAYER1_TILE']['value'],self.global_config['COLOR_BG']['value'])
+		surf=self.hudfont.render(self.playerscorestring,1,self.global_config['COLOR_FG_PLAYER0_TILE']['value'],self.global_config['COLOR_BG']['value'])
 		surf.set_colorkey(self.global_config['COLOR_BG']['value'])
 		self.screen.blit(surf,(20,y0))
 		y0+=surf.get_height()+vspc
 		"""
 		self.levelstring="Level:%d"%self.LEVEL
-		surf=self.hudfont.render(self.levelstring,1,self.global_config['COLOR_BG_PLAYER1_TILE']['value'],self.global_config['COLOR_BG']['value'])
+		surf=self.hudfont.render(self.levelstring,1,self.global_config['COLOR_BG_PLAYER0_TILE']['value'],self.global_config['COLOR_BG']['value'])
 		surf.set_colorkey(self.global_config['COLOR_BG']['value'])
 		self.screen.blit(surf,(20,y0))
 		y0+=surf.get_height()+vspc
 		"""
 		self.helpstring="Help:F9"
-		surf=self.hudfont.render(self.helpstring,1,self.global_config['COLOR_BG_PLAYER1_TILE']['value'],self.global_config['COLOR_BG']['value'])
+		surf=self.hudfont.render(self.helpstring,1,self.global_config['COLOR_FG_PLAYER0_TILE']['value'],self.global_config['COLOR_BG']['value'])
 		surf.set_colorkey(self.global_config['COLOR_BG']['value'])
 		self.screen.blit(surf,(20,y0))
 		y0+=surf.get_height()+vspc
@@ -949,23 +956,23 @@ class TuxWordSmith(TWSSolver):
 		if self.LEVEL>=3:
 		   	if self.player_idx==0:
 				tuxturnstring= "<-%s"%('Tux')#self.global_config['PLAYER_0_CHARACTER']['value']
-				surf=self.hudfont.render(tuxturnstring,1,self.global_config['COLOR_BG_PLAYER0_TILE']['value'],self.global_config['COLOR_BG']['value'])
+				surf=self.hudfont.render(tuxturnstring,1,self.global_config['COLOR_FG_PLAYER0_TILE']['value'],self.global_config['COLOR_BG']['value'])
 				surf.set_colorkey(self.global_config['COLOR_BG']['value'])
 				self.screen.blit(surf,(XPOS,40))
 			else:
 				yourturnstring="<-%s"%('You')
-				surf=self.hudfont.render(yourturnstring,1,self.global_config['COLOR_BG_PLAYER1_TILE']['value'],self.global_config['COLOR_BG']['value'])
+				surf=self.hudfont.render(yourturnstring,1,self.global_config['COLOR_FG_PLAYER1_TILE']['value'],self.global_config['COLOR_BG']['value'])
 				surf.set_colorkey(self.global_config['COLOR_BG']['value'])
 				self.screen.blit(surf,(XPOS,self.global_config['WIN_H']['value']-55))
 		else:
 			if self.player_idx==0:
 				tuxturnstring= "<-%s"%('Tux')#self.global_config['PLAYER_0_CHARACTER']['value']
-				surf=self.hudfont.render(tuxturnstring,1,self.global_config['COLOR_BG_PLAYER0_TILE']['value'],self.global_config['COLOR_BG']['value'])
+				surf=self.hudfont.render(tuxturnstring,1,self.global_config['COLOR_FG_PLAYER0_TILE']['value'],self.global_config['COLOR_BG']['value'])
 				surf.set_colorkey(self.global_config['COLOR_BG']['value'])
 				self.screen.blit(surf,(XPOS,40))
 			else:
 				yourturnstring="<-%s"%('You')
-				surf=self.hudfont.render(yourturnstring,1,self.global_config['COLOR_BG_PLAYER1_TILE']['value'],self.global_config['COLOR_BG']['value'])
+				surf=self.hudfont.render(yourturnstring,1,self.global_config['COLOR_FG_PLAYER1_TILE']['value'],self.global_config['COLOR_BG']['value'])
 				surf.set_colorkey(self.global_config['COLOR_BG']['value'])
 				self.screen.blit(surf,(XPOS,self.global_config['WIN_H']['value']-55))
 		#####
@@ -1102,7 +1109,14 @@ class TuxWordSmith(TWSSolver):
 			self.global_config['WIN_W']['value']-self.play_button.get_width()/2-reveal,
 			H0+2.4*self.play_button.get_height()#self.global_config['WIN_H']['value']-3*self.play_button.get_height()/2-reveal-H0
 		)
-		self.playbuttongroup=pygame.sprite.Group([self.demo_button,self.play_button,self.admin_button])
+
+		self.quit_button=Button(self.global_config,'Quit',self.bfont)
+		self.quit_button.rect.center=(#NOTE: THIS IS *CENTER*
+			self.global_config['WIN_W']['value']-self.quit_button.get_width()/2-reveal,
+			H0+3.6*self.play_button.get_height()#self.global_config['WIN_H']['value']-3*self.play_button.get_height()/2-reveal-H0
+		)
+
+		self.playbuttongroup=pygame.sprite.Group([self.quit_button,self.demo_button,self.play_button,self.admin_button])
 		self.playbuttons=pygame.sprite.RenderPlain(self.playbuttongroup)
 		
 		self.okay_button=RoundButton(self.global_config,'Okay',self.bfont)
@@ -1480,8 +1494,8 @@ class TuxWordSmith(TWSSolver):
 			u'Millie and Jordan',
 			u'* And * Kids * Everywhere *',
 			u'',
-			u'TuxWordSmith Version 0.7.10',
-			u'January 15, 2010',
+			u'TuxWordSmith Version 0.8.0',
+			u'December 6, 2014',
 			u'',
 			u'Author:Charles B. Coss'+u'\xe9',
 			u'Contact:ccosse@asymptopia.org', 
@@ -1761,7 +1775,7 @@ class TuxWordSmith(TWSSolver):
 			'',
 			'**********************************************************',
 			'*                                                        *',
-			'*   You are using version 0.7.10 from January 15, 2010   *',
+			'*   You are using version 0.8.0 from December 6, 2014   *',
 			'*                                                        *',
 			'*                http://www.asymptopia.org               *',
 			'*                                                        *',

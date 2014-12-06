@@ -5,13 +5,15 @@
 
     Website         :www.asymptopia.org
 
+    Support         :www.asymptopia.org/forum
+
     Author          :Charles B. Cosse
 
-    Email           :ccosse@gmail.com
+    Email           :ccosse@asymptopia.org
 
-    Copyright       :(C) 2006-2008 Asymptopia Software
+    Copyright       :(C) 2006-2015 Asymptopia Software
 
-    License         :GPL2
+    License         :GPLv3
 
 ***********************************************************/
 """
@@ -164,13 +166,18 @@ class TWSSolver:
 					
 				
 				
-				#Resource not Cyrillic and uchar not LATIN:
+				#Resource not Cyrillic and uchar not LATIN :
+				#also catches spanish special case to remove u-ddot
 				elif self.current_resource_key[:8]!='Greek-En' and self.current_resource_key[:8]!='Ukrainia' and self.current_resource_key[:8]!='Russian-':#This hard-coded feature needs to goto documentation!
 					if string.find(uname,'LATIN')<0:OMIT_FLAG=2
-				
+					elif (self.current_resource_key[:8]=="Spanish-" and string.find(uname,'DIAERESIS')>=0):
+						OMIT_FLAG=1
+						
 				#Resource is Cyrillic and uchar not Cyrillic:
 				elif self.current_resource_key[:8]=='Ukrainia' or self.current_resource_key[:8]=='Russian-':
 					if string.find(uname,'CYRILLIC')<0:OMIT_FLAG=2
+				
+				
 				
 				#Resource is Greek and uchar not Greek:
 				elif self.current_resource_key[:8]=='Greek-En':
@@ -262,6 +269,9 @@ class TWSSolver:
 			self.global_config['scoring'][uname]=int(maxval-vrange*this_freq/max_freq)
 			if DEBUG:print uname,this_freq,self.global_config['scoring'][uname]
 			
+		print self.current_resource_key
+		for uname in self.global_config['distribution'].keys():
+			print uname,self.global_config['distribution'][uname]
 			
 		#if not self.ntuple:#NEED:Save ntuple across sessions (would require don't re-create tws_solver)
 		self.build_ntuple()
