@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=TuxWordSmith
+GenericName=A word game
+GenericName[ru]=Игра в слова
+Comment=Multilanguage scrabble game
+Comment[ru]=Многоязыковая игра Эрудит
+Exec=tuxwordsmith
+Icon=tuxwordsmith
+Terminal=false
+Type=Application
+Categories=Game;BoardGame;

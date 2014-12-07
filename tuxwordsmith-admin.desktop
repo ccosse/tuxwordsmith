@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=TuxWordSmith Admin
+Name[ru]=TuxWordSmith Админ
+GenericName=A word game
+GenericName[ru]=Игра в слова
+Comment=Multilanguage scrabble game with administration mode enabled
+Comment[ru]=Многоязыковая игра Эрудит (режим администратора)
+Exec=tuxwordsmith -wx
+Icon=tuxwordsmith
+Terminal=false
+Type=Application
+Categories=Game;BoardGame;
