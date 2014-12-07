@@ -41,6 +41,12 @@ class Environment:
 				if sitepkgdir[-13:]=='site-packages':break
 			configdir=os.path.join('/','var','games',appname)#,os.path.basename(appname)
 			fontdir=os.path.join('/','var','games',appname)#,os.path.basename(appname)
+			
+			if os.path.exists("/usr/share/games/tuxwordsmith"):
+				sitepkgdir=os.path.join('/','usr','share','games','tuxwordsmith', 'lib')
+				configdir=os.path.join('/','usr','share','games','tuxwordsmith')#,os.path.basename(appname)
+				fontdir=os.path.join('/','usr','share','games','tuxwordsmith')#,os.path.basename(appname)
+
 			homedir=os.getenv('HOME')
 		
 		elif OS=='win':
@@ -60,22 +66,23 @@ class Environment:
 		
 		
 		#If application hasn't been installed (via setup.py) then try to run from tgz directory:
-		if os.path.exists(appname) and os.path.exists('tuxwordsmith.py'):#if yes, then probably want to be running w/o installing.
-			sitepkgdir='.'
-			fontdir='.'
-			configdir='.'
-			homedir=os.getenv('HOME')
-			if not homedir:homedir=os.getenv('USERPROFILE')
-		elif os.path.exists(os.path.join(sitepkgdir,appname,'tws.py')):pass
-		elif  os.path.exists(os.path.join(sitepkgdir,appname,'tws.py')) and OS=='win':pass
+		if os.path.exists("/usr/share/games/tuxwordsmith"):pass
 		else:
-			sitepkgdir='.'
-			fontdir='.'
-			configdir='.'
-			homedir=os.getenv('HOME')
-			if not homedir:homedir=os.getenv('USERPROFILE')
+			if os.path.exists(appname) and os.path.exists('tws.py'):#if yes, then probably want to be running w/o installing.
+				sitepkgdir='.'
+				fontdir='.'
+				configdir='.'
+				homedir=os.getenv('HOME')
+				if not homedir:homedir=os.getenv('USERPROFILE')
+			elif os.path.exists(os.path.join(sitepkgdir,appname,'tws.py')):pass
+			elif os.path.exists(os.path.join(sitepkgdir,appname,'tws.py')) and OS=='win':pass
+			else:
+				sitepkgdir='.'
+				fontdir='.'
+				configdir='.'
+				homedir=os.getenv('HOME')
+				if not homedir:homedir=os.getenv('USERPROFILE')
 		
-			
 		self.OS=OS
 		self.sitepkgdir=sitepkgdir
 		self.fontdir=fontdir

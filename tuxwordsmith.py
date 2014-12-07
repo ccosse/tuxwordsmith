@@ -19,6 +19,7 @@
 ***********************************************************/
 """
 import os,sys,string,time
+sys.path.append('/usr/share/games/tuxwordsmith/lib')
 from TuxWordSmith.tws import *
 
 def usage():

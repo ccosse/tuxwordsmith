@@ -1300,6 +1300,10 @@ class TuxWordSmith(TWSSolver):
 		
 		if not os.path.exists(infname):
 			master_fname=os.path.join(self.env.fontdir,'.tws_config_master')
+			candidate=os.path.join('/','usr','share','games','tuxwordsmith','.tws_config_master')
+			if os.path.exists(candidate):
+				master_fname=candidate
+				
 			if self.env.OS=='win':
 				cmd="copy %s %s"%(master_fname,os.path.join(homedir,'.tws_config'))
 				os.system(cmd)
