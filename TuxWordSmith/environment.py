@@ -68,7 +68,7 @@ class Environment:
 		#If application hasn't been installed (via setup.py) then try to run from tgz directory:
 		if os.path.exists("/usr/share/games/tuxwordsmith"):pass
 		else:
-			if os.path.exists(appname) and os.path.exists('tws.py'):#if yes, then probably want to be running w/o installing.
+			if os.path.exists(appname) and os.path.exists('tuxwordsmith.py'):#if yes, then probably want to be running w/o installing.
 				sitepkgdir='.'
 				fontdir='.'
 				configdir='.'
