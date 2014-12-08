@@ -1,3 +1,26 @@
+===========================================
+CHANGES TuxWordSmith-0.8.1
+===========================================
+October 8, 2014
+
+Fix screensaver mode via F6 all platforms
+
+===========================================
+CHANGES TuxWordSmith-0.8.0
+===========================================
+October 6, 2014
+
+1. Fix support for wx2.8 and wx3.0
+2. Theme similar to new HTML5 online version
+3. Quit button added to main window
+4. Animated tiles turned-off by default until img sequences touched up
+
+NOTE: .tms_config_master gets copied to $HOME/.tms_config on first run.
+There are many config variables in .tms_config not shown in wxadmin gui.
+These can be edited by hand if necessary.
+
+
+
 ========================
 TuxWordSmith-0.7.11
 ========================
