@@ -613,6 +613,8 @@ class TuxWordSmith(TWSSolver):
 					
 				elif e.key==K_F5:self.shuffle()#shuffle numbers by: first pop from spot, then re-parent
 				
+				elif e.key==K_F6:self.go_fullscreen()
+
 				elif e.key==K_F7:	
 					self.throw_back_submission()
 					self.submissionspots.empty()
@@ -624,7 +626,6 @@ class TuxWordSmith(TWSSolver):
 				elif e.key==K_F9:self.go_help()
 				elif e.key==K_F10:self.go_credit()
 				elif e.key==K_F11:self.go_screenshot()
-				elif e.key==K_F12:self.go_fullscreen()
 				
 			#################################
 			if e.type == MOUSEBUTTONDOWN:
@@ -1444,12 +1445,12 @@ class TuxWordSmith(TWSSolver):
 			u'F3  Key: Record movie (screenshot ea. frame)                            ',
 			u'F4  Key: Screensaver mode                                               ',
 			u'F5  Key: Shuffle tiles in place                                         ',
+			u'F6  Key: Fullscreen                                        ',
 			u'F7  Key: Throw back moved tiles to tray                                 ',
 			u'F8  Key: Skip turn and exchange all tiles                               ',
 			u'F9  Key: Show help                                                      ',
 			u'F10 Key: Show credits                                                   ',
 			u'F11 Key: Screenshot to HOME directory                                   ',
-			u'F12 Key: Fullscreen (Linux only)                                        ',
 			u'ESC Key: Exit                                                           ',
 			u'                                                                        ',
 			u'Mouse wheel also shuffles tiles in place                                ',
@@ -1576,8 +1577,16 @@ class TuxWordSmith(TWSSolver):
 		return 1
 
 	def go_fullscreen(self):
-		self.AMFULLSCREEN=pygame.display.toggle_fullscreen()
-		if DEBUG:print 'self.AMFULLSCREEN=',self.AMFULLSCREEN
+		if self.AMFULLSCREEN==True:
+			try:
+				s=pygame.display.set_mode((0,0))
+				self.AMFULLSCREEN=False
+			except Exception,e:print e
+		else:
+			try:
+				s=pygame.display.set_mode((0,0),pygame.FULLSCREEN)
+				self.AMFULLSCREEN=True
+			except Exception,e:print e
 
 	def display_overlay(self,xfont,msg):#msg=[line1,line2,...]
 		wmax=0
@@ -2210,15 +2219,15 @@ class TuxWordSmith(TWSSolver):
 					#self.STOP_RUNNING=1
 					#return
 				
+				elif event.key ==K_F6:
+					self.go_fullscreen()
+
 				elif event.key==K_F9:
 					self.go_help()
 				
 				elif event.key==K_F10:
 					self.go_credit()
 					
-				elif event.key ==K_F12:
-					pygame.display.toggle_fullscreen()
-					self.AMFULLSCREEN*=-1
 					
 				elif event.key==K_F11:
 					try:self.take_screenshot()
