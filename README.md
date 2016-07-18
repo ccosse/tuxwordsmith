@@ -1,2 +1,249 @@
-TuxWordSmith
-============
+<pre>
+
+========================
+TuxWordSmith-0.8.1
+========================
+December 8, 2014
+
+Fix fullscreen capability via F6, all platforms
+
+========================
+TuxWordSmith-0.8.0
+========================
+December 6, 2014
+
+1. New theme ala TuxMathScrabble-HTML5
+2. Fix wxpython support 2.8 and 3.0
+3. Rework wxadmin interface
+4. Remove extraneous u-double-dot char from Spanish-English letter distribution
+5. Tested on Mac, Gentoo Linux and Ubuntu 14.
+
+TuxWordSmith is a sister application to TuxMathScrabble.  Historically, TuxMathScrabble (TMS)
+came first.  The xdxf dictionaries made TWS possible, so I did, but it's a very rudimentary 
+implementation.  Several of the dictionary resources are small.  This could be ported to HTML5
+just like the new TMS recently was.  TWS is scehduled to become part of the AutoTeach project.
+Please visit:  http://www.autoteach.net  and http://www.asymptopia.org
+For support visit: http://www.asymptopia.org/forum
+
+
+NOTE: For Ubuntu use gtk2.8
+
+NOTE2: The English-English dictionary is called "Merriam-Webster-Collegiate" (1932)
+
+========================
+TuxWordSmith-0.7.11
+========================
+January 18, 2010
+
+1.	Bugfix for missing path variable on some operating systems.
+
+========================
+TuxWordSmith-0.7.10
+========================
+January 15, 2010
+
+1.	All users take their own unique copy of .tws_config_master and save to $HOME/.tws_config
+
+========================
+TuxWordSmith-0.7.9
+========================
+December 27, 2009
+
+1.	Bugfix for display.init() problem under windows (my XP at least).
+	Specifically, added the following @lines 170-173 tws.py:
+
+	if self.env.OS=="win":
+		os.environ['SDL_VIDEODRIVER'] = 'windib'
+	pygame.display.init()
+	pygame.init()
+
+2.	Bugfix @TuxWordSmith/environment.py to avoid ambiguity of having 2 nested
+	TuxWordSmith directories ( ie. TuxWordSmith/TuxWordSmith/ ).  Caused errors
+	running installed version from $HOME with $HOME/TuxWordSmith existing.
+
+========================
+TuxWordSmith-0.7.8
+========================
+December 22, 2009
+
+This release (0.7.7) implements the CPU activity capping scheme as just released in TuxMathScrabble 0.7.0.  
+The original fireworks show at the startup screen is now off by default.  Sound is also off by default.  
+The language is English-English by default.  The default language resource is Merriam-Webster-Collegiate.  
+Launch the application with the -wx flag to obtain access to the gui administration and configuration interface.  
+There you can select your desired language resource.  You can look at the various directory sizes under the xdxf/ 
+directory to see the realative sizes of the various included dictionaries.  The default English is very complete.  
+Some are not so complete, but may be entertaining to watch in demo mode (computer vs. compter).   Note that 
+in demo mode the CPU usage will remain quite high as "most of the time" the computer will be finding a good 
+move for a player.  In that case the CPU really is needed.  "Capping the CPU activity" in this case means 
+limiting the number of screen repaints.  In past versions if the CPU was not in full use for the purpose of 
+fitting a word, then the application would repaint itself -- often needlessly -- putting CPU activity back 
+to 100%.
+
+As a result of no longer including dependencies for the Windows version, now all three platforms (Win/Lin/Mac) 
+use the exact same code. I have personally tested on Linux and Windows, but not Mac.  Please let me know about 
+your experience on a Mac.
+
+Another big difference from past releases is that 0.7.7 has two variants ... one which has only a few dictionaries 
+and is thus a smaller size to download, and another variant which has every dictionary and is quite large.  If you 
+have a slow connection then you can download the smaller variant and get the specific additional dictionary you 
+would like from the SourceForge archive.
+
+There is one more big change if you run under Windows: No more .exe with all dependencies contained.  You need to 
+install Python and PyGame (definitely) and wxPython (optional, ie can play defaults but cannot use admin gui to 
+change languages). 
+
+
+========================
+TuxWordSmith-0.7.0
+========================
+May 6, 2009
+
+1.	The wxGTK (aka wxPython, wxWidgets, etc) GUI toolkit is now merely an option, and no longer required.
+2.	In connection with [1] the application now accepts 3 command line options: -help, -wx and -d <dictionary>
+
+========================
+TuxWordSmith-0.6.7
+========================
+December 6, 2008
+
+1.	Fixed bug where tile dropped on existing got permanently "absorbed" (ie. disappeared)
+2. 	Changed default throwback behavior: Now, invalid moves not thrown back. Throwback via keyboard shortcut.
+3.	Program launcher name changed from TuxMathScrabble to lowercase tuxmathscrabble
+4.	Default included dictionary is Merriam-Webster English Dictionary
+5.	Filter out biographical names (entries having xml tag = "biographical name")
+
+========================
+TuxWordSmith-0.6.6
+========================
+November 3, 2008
+
+1.	Arbitrary number of dictionary resources can exist; they are now dynamically "discovered".
+2.	F1 on background clears last definition (more convenient for 1-handed playing.
+3.	Mouse wheel over tray shuffles tray tiles
+4.	Long-standing bug fixed: when "show all" in admin panel, then save, lose sidebar image pathname -> crash! (fixed).
+5.	Mouse wheel over tray shuffles tiles (saves having to reach w/left hand to press F5, as previously implemented)
+6.	Fixed crash on disconnected single-letter submission where variable "exprtype" reference undefined
+7.	Changed some variables to be shown in admin panel by default: SoundOn,
+8.	Fixed capability to save changes to IMAGE_ADMIN_SIDEBAR
+9.	Reduced-by-consolidation use of color and font variables ... 
+10.	Went from "wx.lib.flatnotebook" back to "wx.Notebook" for older wx installation compatability.
+11.	Restored ToolTips for all items throughout admin configuration panel.
+12. Updated fireworks show by going over each type and making parameter adjustments 
+13. F2 Key fills background color and currently rendered definition, only, so can read (ie as tiles underneathe often make difficult to read).
+14.	Installation is now optional.  Game can be played from unzipped package directory.
+15. Fixed last definition surface layout and word wrapping.
+
+
+In this release the Spanish-English dictionary is included as the default.
+The various other language[a]-language[b] dictionary resources have been put on SourceForge.
+In this release additional dictionary resources are downloaded and installed individually.
+The url is: http://sourceforge.net/project/showfiles.php?group_id=183670&package_id=273695&release_id=637678
+The best English dictionary to use is: Merriam-Webster-Collegiate
+To install them simply unzip and copy to the following appropriate directory:
+
+	Linux stand-alone: $HOME/TuxWordSmith/xdxf/
+	Linux installed: /var/games/TuxWordSmith/xdxf/
+	Windows: C:\Program Files\TuxWordSmith\TuxWordSmith\xdxf\
+
+
+========================
+TuxWordSmith-0.6.5
+========================
+
+July 7, 2008:
+The main feature of this release is the addition of English-Chinese mode, where you
+play in English and definitions are shown in Chinese (Traditional, Simplified and the
+Pinyin -- all three styles).  
+
+Also added are several other resources created by inverting existing dicts (see manifest).
+
+English-German and English-Russian (full resources) were also added.
+
+NOTE: All the dictionaries came from http://xdxf.revdanica.com/down/index.php
+
+
+========================
+TuxWordSmith-0.6.3
+========================
+
+April 26, 2008:
+TuxWordSmith is similar to the classic word game "Scrabble", but with unicode support 
+for multiple languages and character sets. The game is currently distributed with 
+forty-two (42) dictionary resources for playing Language[i]-Language[j] "Scrabble".  
+For example, if configured to use the French-German dictionary, then the distribution 
+of available tiles will be computed based on frequency of occurance of each character 
+of Language[i] (French), and for each submission the corresponding definition will be 
+given in Language[j] (German).   The latest release (0.6.0) includes support for the 
+Greek and Cyrillic (Russian, Ukranian) character sets, thus making it possible to play 
+Scrabble in Greek, Russian and Ukranian, as well as a host of other languages which use 
+latin characters.  TuxWordSmith (TWS) is a "sister" application to TuxMathScrabble(TMS), 
+the TWS code is 95% identical to the TMS code.  (Lin/Win/Mac)
+
+
+Design and Algorithm information: 
+Each dictionary resource contains a unique number of entries (words and definitions). 
+Some effort has been made to filter acronyms, abbreviations and names, but this filtering
+is not perfect, and sometimes these creep into the central data structure.  At any rate,
+once the configured dictionary is parsed and filtered, the set of surviving words are 
+analyzed and corresponding entries are created for each unique set of letters in the 
+central data structure.  Each entry contains a list of words with the same letter content,
+among other things, such that entries are distinguished by their unique fingerprints.
+
+Once the central data structure has been completely populated, a histogram of unique
+letter frequencies for the specific dictionary resource is created.  If Language[i]=English,
+then there should be 26 channels to this histogram.  However, if Language[i]=French, for 
+example, then there are additional channels corresponding to letters with accents and the
+"c" with cedilla.  Everything is determined dynamically according to the particular 
+dictionary resource that has been configured.  This distribution is then normalized
+to the configured total number of tiles, and a "bag of tiles" (just like Scrabble) is
+filled with the correct realative numbers of each character.  
+
+Coloring of the tiles occurs when a player draws tiles from the bag.  This is something
+that can only be done with a computer Scrabble game.  When tiles are exchanged, they go
+back into the bag of tiles, and if ever the bag is emptied, then the program refills the
+bag with another full set of "N" (according to configuration) tiles.  So, it is the most
+fair and representative policy, unlike Scrabble.  Also, the point value of each tile
+is computed based on realative frequency and normalized to the range [min,max] as also
+configured through the admin control panel.  
+
+
+Adding More Dictionary Resources:
+Starting with version 0.6.3 the 40+ dictionaries for the application are to be downloaded
+and installed separately.  See the link at http://www.asymptopia.org to download.  If you
+still cannot find the dictionary resource you seek, check the xdxf website, where there
+are numerous other resources available: http://xdxf.revdanica.com/down/index.php
+You will need to make a slight modification to the resource you download, namely that
+the "full-name" string in the actual dict.xdxf file that you download is identical to
+the directory name under which it is stored.  This is merely a useful convention adopted
+throughout the application.  You will also need to manually edit the Globals/globals/config
+file and add the resource to the list under the parameter DICTIONARY_RESOURCES.  If you
+do this correctly, it will then show-up in the admin gui's DICTIONARY_RESOURCES combobox.
+Note that Language[i] is limited to Latin, Greek and Cyrillic character languages. Korean,
+Chinese and Japanese won't work.  
+
+
+Differences from Scrabble:
+1. No blank tiles
+2. Scoring and realative numbers of tiles determined fairly based on configured resource
+3. No DoubleLetter, DoubleWord and TrippleLetter etc spots on board
+4. Due to variation among dictionary resources, and thus differences in content, format and 
+representation, very little hard-coding has been done to prevent use of abbreviations, names,
+and other types typically not allowed in regular Scrabble.  In general, if it is in the 
+dictionary resource, then Tux might use it! (You could, too, if you knew it was in there).
+
+
+Other Notes:
+1. Turning both characters "off" (ie by setting to "None" character through admin control panel)
+will result in significantly faster game play in computer-vs-computer mode.
+
+
+Future Versions:
+The current scheme uses individual Language[i]-Language[j] dictionary resources. Plans exist
+to combine these many individual resources into a single set of cross-referenced data vectors.
+In theory (ie. if it works) this will allow to play between ANY 2 supported languages, as
+opposed to being limited to the specific dictionary resources currently included.  A small
+step in this direction was made with the inclusion of the Greek-English dictionary, which
+is really the English-Greek dictionary, inverted.  Hopefully with more resources and 
+cross-referencing options such a structure could be filled-in to some degree of completeness.
+
+</pre>
