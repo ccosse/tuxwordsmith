@@ -33,6 +33,12 @@ latin characters.  TuxWordSmith (TWS) is a "sister" application to TuxMathScrabb
 the TWS code is 95% identical to the TMS code.  (Lin/Win/Mac)
 </p>
 <p>
+TuxWordSmith is a sister application to TuxMathScrabble.  Historically, TuxMathScrabble (TMS)
+came first.  The xdxf dictionaries made TWS possible, so I did, but it's a very rudimentary 
+implementation.  Several of the dictionary resources are small.  This could be ported to HTML5
+just like the new TMS recently was.  For support visit: http://www.asymptopia.org
+</p>
+<p>
 <h3>Design and Algorithm information: </h3>
 Each dictionary resource contains a unique number of entries (words and definitions). 
 Some effort has been made to filter acronyms, abbreviations and names, but this filtering
@@ -120,13 +126,6 @@ December 6, 2014
 3. Rework wxadmin interface
 4. Remove extraneous u-double-dot char from Spanish-English letter distribution
 5. Tested on Mac, Gentoo Linux and Ubuntu 14.
-
-TuxWordSmith is a sister application to TuxMathScrabble.  Historically, TuxMathScrabble (TMS)
-came first.  The xdxf dictionaries made TWS possible, so I did, but it's a very rudimentary 
-implementation.  Several of the dictionary resources are small.  This could be ported to HTML5
-just like the new TMS recently was.  TWS is scehduled to become part of the AutoTeach project.
-Please visit:  http://www.autoteach.net  and http://www.asymptopia.org
-For support visit: http://www.asymptopia.org/forum
 
 
 NOTE: For Ubuntu use gtk2.8
