@@ -1,5 +1,88 @@
+<h2>TuxWordSmith</h2>
+<p>
+TuxWordSmith is similar to the classic word game "Scrabble", but with unicode support 
+for multiple languages and character sets. The game is currently distributed with 
+forty-two (42) dictionary resources for playing Language[i]-Language[j] "Scrabble".  
+For example, if configured to use the French-German dictionary, then the distribution 
+of available tiles will be computed based on frequency of occurance of each character 
+of Language[i] (French), and for each submission the corresponding definition will be 
+given in Language[j] (German).   The latest release (0.6.0) includes support for the 
+Greek and Cyrillic (Russian, Ukranian) character sets, thus making it possible to play 
+Scrabble in Greek, Russian and Ukranian, as well as a host of other languages which use 
+latin characters.  TuxWordSmith (TWS) is a "sister" application to TuxMathScrabble(TMS), 
+the TWS code is 95% identical to the TMS code.  (Lin/Win/Mac)
+</p>
+<p>
+<h3>Design and Algorithm information: </h3>
+Each dictionary resource contains a unique number of entries (words and definitions). 
+Some effort has been made to filter acronyms, abbreviations and names, but this filtering
+is not perfect, and sometimes these creep into the central data structure.  At any rate,
+once the configured dictionary is parsed and filtered, the set of surviving words are 
+analyzed and corresponding entries are created for each unique set of letters in the 
+central data structure.  Each entry contains a list of words with the same letter content,
+among other things, such that entries are distinguished by their unique fingerprints.
+</p>
+<p>
+Once the central data structure has been completely populated, a histogram of unique
+letter frequencies for the specific dictionary resource is created.  If Language[i]=English,
+then there should be 26 channels to this histogram.  However, if Language[i]=French, for 
+example, then there are additional channels corresponding to letters with accents and the
+"c" with cedilla.  Everything is determined dynamically according to the particular 
+dictionary resource that has been configured.  This distribution is then normalized
+to the configured total number of tiles, and a "bag of tiles" (just like Scrabble) is
+filled with the correct realative numbers of each character.  
+</p>
+<p>
+Coloring of the tiles occurs when a player draws tiles from the bag.  This is something
+that can only be done with a computer Scrabble game.  When tiles are exchanged, they go
+back into the bag of tiles, and if ever the bag is emptied, then the program refills the
+bag with another full set of "N" (according to configuration) tiles.  So, it is the most
+fair and representative policy, unlike Scrabble.  Also, the point value of each tile
+is computed based on realative frequency and normalized to the range [min,max] as also
+configured through the admin control panel.  
+</p>
+<p>
+<h3>Adding More Dictionary Resources:</h3>
+Starting with version 0.6.3 the 40+ dictionaries for the application are to be downloaded
+and installed separately.  See the link at http://www.asymptopia.org to download.  If you
+still cannot find the dictionary resource you seek, check the xdxf website, where there
+are numerous other resources available: http://xdxf.revdanica.com/down/index.php
+You will need to make a slight modification to the resource you download, namely that
+the "full-name" string in the actual dict.xdxf file that you download is identical to
+the directory name under which it is stored.  This is merely a useful convention adopted
+throughout the application.  You will also need to manually edit the Globals/globals/config
+file and add the resource to the list under the parameter DICTIONARY_RESOURCES.  If you
+do this correctly, it will then show-up in the admin gui's DICTIONARY_RESOURCES combobox.
+Note that Language[i] is limited to Latin, Greek and Cyrillic character languages. Korean,
+Chinese and Japanese won't work.  
+</p>
+<p>
+<h3>Differences from Scrabble:</h3>
+1. No blank tiles<br>
+2. Scoring and realative numbers of tiles determined fairly based on configured resource<br>
+3. No DoubleLetter, DoubleWord and TrippleLetter etc spots on board<br>
+4. Due to variation among dictionary resources, and thus differences in content, format and 
+representation, very little hard-coding has been done to prevent use of abbreviations, names,
+and other types typically not allowed in regular Scrabble.  In general, if it is in the 
+dictionary resource, then Tux might use it! (You could, too, if you knew it was in there).
+</p>
+<p>
+<h3>Other Notes:</h3>
+Turning both characters "off" (ie by setting to "None" character through admin control panel)
+will result in significantly faster game play in computer-vs-computer mode.
+</p>
+<p>
+<h3>Future Versions:</h3>
+The current scheme uses individual Language[i]-Language[j] dictionary resources. Plans exist
+to combine these many individual resources into a single set of cross-referenced data vectors.
+In theory (ie. if it works) this will allow to play between ANY 2 supported languages, as
+opposed to being limited to the specific dictionary resources currently included.  A small
+step in this direction was made with the inclusion of the Greek-English dictionary, which
+is really the English-Greek dictionary, inverted.  Hopefully with more resources and 
+cross-referencing options such a structure could be filled-in to some degree of completeness.
+</p>
+<h3>Release History:</h3>
 <pre>
-
 ========================
 TuxWordSmith-0.8.1
 ========================
@@ -165,85 +248,7 @@ NOTE: All the dictionaries came from http://xdxf.revdanica.com/down/index.php
 ========================
 TuxWordSmith-0.6.3
 ========================
+April 26, 2008
 
-April 26, 2008:
-TuxWordSmith is similar to the classic word game "Scrabble", but with unicode support 
-for multiple languages and character sets. The game is currently distributed with 
-forty-two (42) dictionary resources for playing Language[i]-Language[j] "Scrabble".  
-For example, if configured to use the French-German dictionary, then the distribution 
-of available tiles will be computed based on frequency of occurance of each character 
-of Language[i] (French), and for each submission the corresponding definition will be 
-given in Language[j] (German).   The latest release (0.6.0) includes support for the 
-Greek and Cyrillic (Russian, Ukranian) character sets, thus making it possible to play 
-Scrabble in Greek, Russian and Ukranian, as well as a host of other languages which use 
-latin characters.  TuxWordSmith (TWS) is a "sister" application to TuxMathScrabble(TMS), 
-the TWS code is 95% identical to the TMS code.  (Lin/Win/Mac)
-
-
-Design and Algorithm information: 
-Each dictionary resource contains a unique number of entries (words and definitions). 
-Some effort has been made to filter acronyms, abbreviations and names, but this filtering
-is not perfect, and sometimes these creep into the central data structure.  At any rate,
-once the configured dictionary is parsed and filtered, the set of surviving words are 
-analyzed and corresponding entries are created for each unique set of letters in the 
-central data structure.  Each entry contains a list of words with the same letter content,
-among other things, such that entries are distinguished by their unique fingerprints.
-
-Once the central data structure has been completely populated, a histogram of unique
-letter frequencies for the specific dictionary resource is created.  If Language[i]=English,
-then there should be 26 channels to this histogram.  However, if Language[i]=French, for 
-example, then there are additional channels corresponding to letters with accents and the
-"c" with cedilla.  Everything is determined dynamically according to the particular 
-dictionary resource that has been configured.  This distribution is then normalized
-to the configured total number of tiles, and a "bag of tiles" (just like Scrabble) is
-filled with the correct realative numbers of each character.  
-
-Coloring of the tiles occurs when a player draws tiles from the bag.  This is something
-that can only be done with a computer Scrabble game.  When tiles are exchanged, they go
-back into the bag of tiles, and if ever the bag is emptied, then the program refills the
-bag with another full set of "N" (according to configuration) tiles.  So, it is the most
-fair and representative policy, unlike Scrabble.  Also, the point value of each tile
-is computed based on realative frequency and normalized to the range [min,max] as also
-configured through the admin control panel.  
-
-
-Adding More Dictionary Resources:
-Starting with version 0.6.3 the 40+ dictionaries for the application are to be downloaded
-and installed separately.  See the link at http://www.asymptopia.org to download.  If you
-still cannot find the dictionary resource you seek, check the xdxf website, where there
-are numerous other resources available: http://xdxf.revdanica.com/down/index.php
-You will need to make a slight modification to the resource you download, namely that
-the "full-name" string in the actual dict.xdxf file that you download is identical to
-the directory name under which it is stored.  This is merely a useful convention adopted
-throughout the application.  You will also need to manually edit the Globals/globals/config
-file and add the resource to the list under the parameter DICTIONARY_RESOURCES.  If you
-do this correctly, it will then show-up in the admin gui's DICTIONARY_RESOURCES combobox.
-Note that Language[i] is limited to Latin, Greek and Cyrillic character languages. Korean,
-Chinese and Japanese won't work.  
-
-
-Differences from Scrabble:
-1. No blank tiles
-2. Scoring and realative numbers of tiles determined fairly based on configured resource
-3. No DoubleLetter, DoubleWord and TrippleLetter etc spots on board
-4. Due to variation among dictionary resources, and thus differences in content, format and 
-representation, very little hard-coding has been done to prevent use of abbreviations, names,
-and other types typically not allowed in regular Scrabble.  In general, if it is in the 
-dictionary resource, then Tux might use it! (You could, too, if you knew it was in there).
-
-
-Other Notes:
-1. Turning both characters "off" (ie by setting to "None" character through admin control panel)
-will result in significantly faster game play in computer-vs-computer mode.
-
-
-Future Versions:
-The current scheme uses individual Language[i]-Language[j] dictionary resources. Plans exist
-to combine these many individual resources into a single set of cross-referenced data vectors.
-In theory (ie. if it works) this will allow to play between ANY 2 supported languages, as
-opposed to being limited to the specific dictionary resources currently included.  A small
-step in this direction was made with the inclusion of the Greek-English dictionary, which
-is really the English-Greek dictionary, inverted.  Hopefully with more resources and 
-cross-referencing options such a structure could be filled-in to some degree of completeness.
 
 </pre>
