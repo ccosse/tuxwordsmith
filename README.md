@@ -1,12 +1,26 @@
 <center>
-<h2>TuxWordSmith: <i>A Language[i]-Language[j] Scrabble-like Game</i></h2>
-<img src="tws.png"/><i><b>TuxWordSmith 0.8.0</b> being played with the Italian-English dictionary.</i>
-<img src="tws1.png"/><i><b>TuxWordSmith 0.8.0</b> main screen.  Use -wx flag for admin GUI.</i>
-<img src="tws2.png"/><i><b>TuxWordSmith 0.8.0</b> help screen</i>
-<img src="tws3.png"/><i><b>TuxWordSmith 0.8.0</b> wxPython admin gui</i>
+<h2>TuxWordSmith</h2>
+<h3>A Language Game</h3>
+<br>
+<img src="tws.png"/>
+<br>
+<i><b>TuxWordSmith 0.8.0</b> being played with the Italian-English dictionary.</i>
+<br>
+<img src="tws1.png"/>
+<br>
+<i><b>TuxWordSmith 0.8.0</b> main screen.  Use -wx flag for admin GUI.</i>
+<br>
+<img src="tws2.png"/>
+<br>
+<i><b>TuxWordSmith 0.8.0</b> help screen</i>
+<br>
+<img src="tws3.png"/>
+<br>
+<i><b>TuxWordSmith 0.8.0</b> wxPython admin gui</i>
 </center>
 <p>
-TuxWordSmith is similar to the classic word game "Scrabble", but with unicode support 
+<h3>Overview:</h3>
+<b>TuxWordSmith</b> is similar to the classic word game "Scrabble", but with unicode support 
 for multiple languages and character sets. The game is currently distributed with 
 forty-two (42) dictionary resources for playing Language[i]-Language[j] "Scrabble".  
 For example, if configured to use the French-German dictionary, then the distribution 
