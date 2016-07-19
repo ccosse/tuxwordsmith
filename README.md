@@ -1,5 +1,5 @@
 <center>
-<h2>TuxWordSmith</h2>
+<h2>TuxWordSmith: <i>A Language[i]-Language[j] Scrabble-like Game</i></h2>
 <img src="tws.png"/><i><b>TuxWordSmith 0.8.0</b> being played with the Italian-English dictionary.</i>
 <img src="tws1.png"/><i><b>TuxWordSmith 0.8.0</b> main screen.  Use -wx flag for admin GUI.</i>
 <img src="tws2.png"/><i><b>TuxWordSmith 0.8.0</b> help screen</i>
