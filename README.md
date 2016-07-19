@@ -34,7 +34,7 @@ the TWS code is 95% identical to the TMS code.  (Lin/Win/Mac)
 </p>
 <p>
 TuxWordSmith is a sister application to TuxMathScrabble.  Historically, TuxMathScrabble (TMS)
-came first.  The xdxf dictionaries made TWS possible, so I did, but it's a very rudimentary 
+came first.  The xdxf dictionaries made TWS possible, so I wrote it, but it's a very rudimentary 
 implementation.  Several of the dictionary resources are small.  This could be ported to HTML5
 just like the new TMS recently was.  For support visit: http://www.asymptopia.org
 </p>
