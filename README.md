@@ -1,4 +1,5 @@
 <center>
+
 <h2>TuxWordSmith</h2>
 <h3>A Language Game</h3>
 <br>
