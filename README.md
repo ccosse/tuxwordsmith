@@ -1,4 +1,10 @@
+<center>
 <h2>TuxWordSmith</h2>
+<img src="tws.png"/>
+<caption>
+	TuxWordSmith 0.8.0
+</caption>
+</center>
 <p>
 TuxWordSmith is similar to the classic word game "Scrabble", but with unicode support 
 for multiple languages and character sets. The game is currently distributed with 
