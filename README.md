@@ -2,7 +2,7 @@
 <h2>TuxWordSmith</h2>
 <img src="tws.png"/>
 <caption>
-	TuxWordSmith 0.8.0
+	TuxWordSmith 0.8.0 being played with the Italian-English dictionary.
 </caption>
 </center>
 <p>
